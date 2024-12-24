@@ -1,0 +1,33 @@
+{
+    "block.minecraft.stonecutter": "Workbench",
+    "container.stonecutter": "Workbench",
+    "stat.minecraft.interact_with_stonecutter": "Interactions with Workbench",
+    "subtitles.ui.stonecutter.take_result": "Workbench used",
+
+    "container.upgrade": "Create Tools",
+
+    "item.minecraft.smithing_template.applies_to": "Applies to:",
+    "item.minecraft.smithing_template.armor_trim.additions_slot_description": "Add an ingredient",
+    "item.minecraft.smithing_template.armor_trim.applies_to": "Tools & Tool Handles",
+    "item.minecraft.smithing_template.armor_trim.base_slot_description": "Add a tool or tool handle",
+    "item.minecraft.smithing_template.armor_trim.ingredients": "Ingots, Cobblestone & Wood Planks",
+    "item.minecraft.smithing_template.ingredients": "Ingredients:",
+
+    "item.minecraft.diamond_shovel": "Shovel",
+    "item.minecraft.golden_shovel": "Shovel",
+    "item.minecraft.iron_shovel": "Shovel",
+    "item.minecraft.netherite_shovel": "Shovel",
+    "item.minecraft.stone_shovel": "Shovel",
+    "item.minecraft.wooden_shovel": "Shovel",
+    "item.minecraft.diamond_pickaxe": "Pickaxe",
+    "item.minecraft.golden_pickaxe": "Pickaxe",
+    "item.minecraft.iron_pickaxe": "Pickaxe",
+    "item.minecraft.netherite_pickaxe": "Pickaxe",
+    "item.minecraft.stone_pickaxe": "Pickaxe",
+    "item.minecraft.wooden_pickaxe": "Pickaxe",
+
+    "item.minecraft.wayfinder_armor_trim_smithing_template": "Shovel Template",
+    "item.minecraft.wayfinder_armor_trim_smithing_template.new": "Shovel Template",
+    "item.minecraft.host_armor_trim_smithing_template": "Pickaxe Template",
+    "item.minecraft.host_armor_trim_smithing_template.new": "Pickaxe Template"
+}

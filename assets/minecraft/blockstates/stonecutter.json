@@ -1,0 +1,46 @@
+{
+  "multipart": [
+      {
+          "apply": {
+              "model": "minecraft:block/brown_carpet",
+              "uvlock": true
+          }
+      },
+      {
+          "when": {
+              "facing": "north"
+          },
+          "apply": {
+              "model": "cf:block/stonecutter",
+              "y": 0
+          }
+      },
+      {
+          "when": {
+              "facing": "east"
+          },
+          "apply": {
+              "model": "cf:block/stonecutter",
+              "y": 90
+          }
+      },
+      {
+          "when": {
+              "facing": "south"
+          },
+          "apply": {
+              "model": "cf:block/stonecutter",
+              "y": 180
+          }
+      },
+      {
+          "when": {
+              "facing": "west"
+          },
+          "apply": {
+              "model": "cf:block/stonecutter",
+              "y": 270
+          }
+      }
+  ]
+}
