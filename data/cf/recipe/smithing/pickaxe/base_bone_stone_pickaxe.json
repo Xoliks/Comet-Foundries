@@ -33,9 +33,7 @@
             "minecraft:item_model": "cf:stone_pickaxe",
             "minecraft:item_name": "{\"translate\":\"item.minecraft.stone_pickaxe\"}",
             "minecraft:max_damage": 256,
-            "minecraft:repairable": {
-                "items": "#minecraft:stone_tool_materials"
-            },
+            "!minecraft:repairable": {},
             "minecraft:tool": {
                 "rules": [
                     {

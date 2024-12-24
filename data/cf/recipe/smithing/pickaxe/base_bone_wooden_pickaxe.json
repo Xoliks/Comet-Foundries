@@ -33,9 +33,7 @@
             "minecraft:item_model": "cf:wooden_pickaxe",
             "minecraft:item_name": "{\"translate\":\"item.minecraft.wooden_pickaxe\"}",
             "minecraft:max_damage": 256,
-            "minecraft:repairable": {
-                "items": "#minecraft:wooden_tool_materials"
-            },
+            "!minecraft:repairable": {},
             "minecraft:tool": {
                 "rules": [
                     {

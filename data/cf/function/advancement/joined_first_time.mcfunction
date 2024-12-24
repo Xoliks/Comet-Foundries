@@ -1,3 +1,3 @@
 say joined fist time
-spreadplayers 0 0 0 1000 false @s
-playsound entity.dragon_fireball.explode player @a[distance=0..] ~ ~ ~ 1 0.5
+place structure cf:crash
+execute as @a[distance=0..] facing ~ ~ ~ run playsound entity.dragon_fireball.explode player @s ^ ^ ^5 1 0.5

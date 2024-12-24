@@ -1,0 +1,51 @@
+{
+    "name": "cf:crash",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "cf:crash",
+                "processors": {
+                    "processors": [
+                        {
+                            "processor_type": "minecraft:block_rot",
+                            "integrity": 0.7
+                        },
+                        {
+                            "processor_type": "minecraft:rule",
+                            "rules": [
+                                {
+                                    "location_predicate": {
+                                        "predicate_type": "minecraft:always_true"
+                                    },
+                                    "input_predicate": {
+                                        "predicate_type": "minecraft:block_match",
+                                        "block": "minecraft:glass"
+                                    },
+                                    "output_state": {
+                                        "Name": "minecraft:air"
+                                    }
+                                },
+                                {
+                                    "location_predicate": {
+                                        "predicate_type": "minecraft:always_true"
+                                    },
+                                    "input_predicate": {
+                                        "predicate_type": "minecraft:block_match",
+                                        "block": "minecraft:orange_stained_glass"
+                                    },
+                                    "output_state": {
+                                        "Name": "minecraft:fire"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "weight": 1
+        }
+    ]
+}

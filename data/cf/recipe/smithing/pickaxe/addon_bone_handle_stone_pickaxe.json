@@ -5,7 +5,6 @@
     "template": "minecraft:host_armor_trim_smithing_template",
     "result": {
         "components": {
-            "minecraft:max_damage": 256,
             "minecraft:custom_model_data": {
                 "strings": [
                     "bone"
