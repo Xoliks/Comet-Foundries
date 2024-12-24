@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "cf:advancement/joined_first_time"
+    }
+}
