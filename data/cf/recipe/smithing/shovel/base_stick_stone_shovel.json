@@ -1,0 +1,61 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:stick",
+    "addition": "minecraft:cobblestone",
+    "template": "minecraft:wayfinder_armor_trim_smithing_template",
+    "result": {
+        "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:attack_damage",
+                        "amount": 2.5,
+                        "id": "minecraft:base_attack_damage",
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:attack_speed",
+                        "amount": -3,
+                        "id": "minecraft:base_attack_speed",
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ]
+            },
+            "minecraft:damage": 0,
+            "minecraft:enchantable": {
+                "value": 5
+            },
+            "minecraft:enchantments": {
+                "levels": {}
+            },
+            "minecraft:item_model": "cf:stone_shovel",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.stone_shovel\"}",
+            "minecraft:max_damage": 64,
+            "minecraft:repairable": {
+                "items": "#minecraft:stone_tool_materials"
+            },
+            "minecraft:tool": {
+                "rules": [
+                    {
+                        "blocks": "#minecraft:incorrect_for_stone_tool",
+                        "correct_for_drops": false
+                    },
+                    {
+                        "blocks": "#minecraft:mineable/shovel",
+                        "correct_for_drops": true,
+                        "speed": 4
+                    }
+                ]
+            },
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "stick"
+                ]
+            }
+        },
+        "count": 1,
+        "id": "minecraft:stone_shovel"
+    }
+}
