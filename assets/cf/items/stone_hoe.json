@@ -11,25 +11,25 @@
                       "when": "stick",
                       "model": {
                           "type": "minecraft:model",
-                          "model": "cf:item/tools/stick_axe_handle"
+                          "model": "cf:item/tools/stick_hoe_handle"
                       }
                   },
                   {
                       "when": "bone",
                       "model": {
                           "type": "minecraft:model",
-                          "model": "cf:item/tools/bone_axe_handle"
+                          "model": "cf:item/tools/bone_hoe_handle"
                       }
                   }
               ],
               "fallback": {
                   "type": "minecraft:model",
-                  "model": "cf:item/tools/stick_axe_handle"
+                  "model": "cf:item/tools/stick_hoe_handle"
               }
           },
           {
               "type": "minecraft:model",
-              "model": "cf:item/tools/wooden_axe"
+              "model": "cf:item/tools/stone_hoe"
           }
       ]
   }

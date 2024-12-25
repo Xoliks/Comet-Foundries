@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:wooden_axe",
+    "addition": "minecraft:bone",
+    "template": "minecraft:raiser_armor_trim_smithing_template",
+    "result": {
+        "components": {
+            "minecraft:max_damage": 256,
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "bone"
+                ]
+            }
+        },
+        "count": 1,
+        "id": "minecraft:wooden_axe"
+    }
+}

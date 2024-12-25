@@ -29,7 +29,7 @@
           },
           {
               "type": "minecraft:model",
-              "model": "cf:item/tools/wooden_axe"
+              "model": "cf:item/tools/stone_axe"
           }
       ]
   }
