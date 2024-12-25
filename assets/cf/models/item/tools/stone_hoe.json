@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "cf:item/tools/stone_hoe"
+    }
+  }
