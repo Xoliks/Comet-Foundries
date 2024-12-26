@@ -1,11 +1,20 @@
 {
   "type": "minecraft:add",
-  "argument1": {
-    "type": "minecraft:y_clamped_gradient",
-    "from_y": -1000,
-    "to_y": 1000,
-    "from_value": 10,
-    "to_value": -10
-  },
-  "argument2": "cf:ocean/depth"
+  "argument1": "cf:ocean/caves",
+  "argument2": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": -1000,
+        "to_y": 1000,
+        "from_value": 10,
+        "to_value": -10
+      },
+      "argument2": "cf:ocean/base_heightmap"
+    },
+    "min": 0,
+    "max": 1
+  }
 }

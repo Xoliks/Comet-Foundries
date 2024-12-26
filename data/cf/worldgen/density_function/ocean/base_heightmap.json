@@ -7,7 +7,7 @@
       "from_y": 1,
       "to_y": 0,
       "from_value": 0,
-      "to_value": -2
+      "to_value": 2
     },
     "argument2": {
       "type": "minecraft:mul",
