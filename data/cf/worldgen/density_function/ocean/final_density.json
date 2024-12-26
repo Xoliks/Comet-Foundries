@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:y_clamped_gradient",
+    "from_y": -1000,
+    "to_y": 1000,
+    "from_value": 10,
+    "to_value": -10
+  },
+  "argument2": "cf:ocean/depth"
+}

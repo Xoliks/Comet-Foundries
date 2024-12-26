@@ -1,0 +1,42 @@
+{
+  "type": "cf:ocean",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "cf:ocean",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "cf:ocean",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [
+              -1,
+              0.5
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "cf:beach",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [
+              0.5,
+              1
+            ],
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}
