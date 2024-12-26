@@ -10,20 +10,20 @@ Ideas List:
 
 Planets            |Difficulty |Features                          |Wood Type    (12/12)|Ore Types       (12/17)                       |
 :----------------- |:--------- |:-------------------------------- |:------------------ |:-------------------------------------------- |
-Forest planet      |0          |player spawn                      |Oak & Birch Wood    |Coal, Copper                                  |
+Forest planet      |0          |player spawn                      |Apple & Paper Birch |Coal, Copper                                  |
 Tech planet        |0          |Robot People                      |GMO Wood            |Scrap Metal                                   |
 Moon               |1          |no air                            |                    |Erchius (spaceship fuel)                      |
-Ocean planet       |1          |dark ocean caves, underwater city |Palm Wood           |Cobalt                                        |
-Snow planet        |1          |                                  |Evergreen Wood      |Coal, Iron                                    |
+Ocean planet       |1          |dark ocean caves, underwater city |Frangipani          |Cobalt                                        |
+Snow planet        |1          |                                  |Balsam Fir          |Coal, Iron                                    |
 Sand Planet        |2          |                                  |                    |Coal, Iron, Zinc                              |
-Jungle Planet      |2          |                                  |Jungle & Bamboo Wood|Coal, Copper, Gold                            |
+Jungle Planet      |2          |                                  |Kapok & Bamboo Wood |Coal, Copper, Gold                            |
 Mushroom Planet    |2          |                                  |Brown & Red Mushroom|Coal, Copper, Zinc                            |
 Dead planet        |3          |Creaking Mob??                    |Deadwood            |Resin??                                       |
 Jagged Planet      |3          |                                  |                    |Coal, Copper, Cobalt, Iron, Gold              |
 Toxic Swamp Planet |4          |Water and rain cause damage       |Mangrove Wood       |Uranium, Gold, Cobalt                         |
 Cracked Planet     |4          |Cracks to the void                |                    |Gold, Copper, Zinc, Titanium                  |
 Volcano planet     |5          |Rains lava & ash                  |Ashen & Lava wood   |Coal, Copper, Cobalt, Iron, Gold, Magma Steel |
-Crystal Planet     |5          |Rains sharp crystals              |Crystal Wood        |Diamonds                                      |
+Crystal Planet     |5          |Rains sharp crystals              |Crystal Wood??      |Diamonds                                      |
 
 Hollow Planet??
 Ringworld??
