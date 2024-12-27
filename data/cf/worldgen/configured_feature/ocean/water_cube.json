@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:geode",
+  "config": {
+    "blocks": {
+      "alternate_inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:water"
+        }
+      },
+      "cannot_replace": "#cf:water_cube_irreplaceable",
+      "filling_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:water"
+        }
+      },
+      "inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:water"
+        }
+      },
+      "inner_placements": [
+        {
+          "Name": "minecraft:water"
+        }
+      ],
+      "invalid_blocks": "#minecraft:geode_invalid_blocks",
+      "middle_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:water"
+        }
+      },
+      "outer_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:water"
+        }
+      }
+    },
+    "crack": {
+      "base_crack_size": 0,
+      "crack_point_offset": 0,
+      "generate_crack_chance": 0
+    },
+    "distribution_points": 16,
+    "invalid_blocks_threshold": 10000,
+    "layers": {
+      "filling": 16,
+      "inner_layer": 16,
+      "middle_layer": 16,
+      "outer_layer": 16
+    },
+    "max_gen_offset": 16,
+    "min_gen_offset": 0,
+    "noise_multiplier": 0,
+    "outer_wall_distance": 16,
+    "placements_require_layer0_alternate": false,
+    "point_offset": 1,
+    "use_alternate_layer0_chance": 0,
+    "use_potential_placements_chance": 0
+  }
+}

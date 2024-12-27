@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:prismarine",
+    "minecraft:dark_prismarine",
+    "minecraft:gravel",
+    "#minecraft:sand",
+    "minecraft:bedrock",
+    "minecraft:prismarine_slab",
+    "minecraft:dark_prismarine_slab"
+  ]
+}

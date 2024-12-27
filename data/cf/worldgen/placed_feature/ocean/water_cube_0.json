@@ -1,0 +1,11 @@
+{
+  "feature": "cf:ocean/water_cube",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "absolute": -64
+      }
+    }
+  ]
+}
