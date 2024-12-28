@@ -1,10 +1,21 @@
 {
+    "cf.rp.description": "Comet Foundries",
+
     "block.minecraft.stonecutter": "Workbench",
     "container.stonecutter": "Workbench",
     "stat.minecraft.interact_with_stonecutter": "Interactions with Workbench",
     "subtitles.ui.stonecutter.take_result": "Workbench used",
 
     "container.upgrade": "Create Tools",
+
+    "item.minecraft.copper_ingot": "Zinc Ingot",
+    "item.minecraft.netherite_ingot": "Titanium Ingot",
+    "item.minecraft.redstone": "Copper Ingot",
+    "item.minecraft.lapis_lazuli": "Scrap Metal",
+    "item.minecraft.quartz": "Erchius Fuel",
+    "item.minecraft.emerald": "Uranium",
+    "item.minecraft.netherite_scrap": "Magma Steel",
+    "item.minecraft.gold_nugget": "Cobalt Ingot",
 
     "item.minecraft.smithing_template.applies_to": "Applies to:",
     "item.minecraft.smithing_template.armor_trim.additions_slot_description": "Add an ingredient",
@@ -52,4 +63,5 @@
     "item.minecraft.raiser_armor_trim_smithing_template.new": "Axe Template",
     "item.minecraft.shaper_armor_trim_smithing_template": "Hoe Template",
     "item.minecraft.shaper_armor_trim_smithing_template.new": "Hoe Template"
+
 }

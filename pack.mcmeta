@@ -1,7 +1,10 @@
 {
     "pack": {
         "pack_format": 46,
-        "description": "Comet Foundries Development Pack",
+        "description": {
+            "fallback":"Comet Foundries",
+            "translate":"cf.rp.description"
+        },
         "supported_formats": [
             61,
             46
