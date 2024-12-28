@@ -25,12 +25,18 @@
                 "value": 5
             },
             "minecraft:enchantments": {
-                "levels": {}
+                "levels": {
+                    "cf:uncombinable0": 1,
+                    "cf:uncombinable1": 1
+                }
             },
+            "minecraft:enchantment_glint_override": false,
             "minecraft:item_model": "cf:stone_hoe",
             "minecraft:item_name": "{\"translate\":\"item.minecraft.stone_hoe\"}",
             "minecraft:max_damage": 64,
-            "!minecraft:repairable": {},
+            "minecraft:repairable": {
+                "items":"minecraft:lapis_lazuli"
+            },
             "minecraft:tool": {
                 "rules": [
                     {

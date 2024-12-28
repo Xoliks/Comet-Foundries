@@ -28,12 +28,18 @@
                 "value": 15
             },
             "minecraft:enchantments": {
-                "levels": {}
+                "levels": {
+                    "cf:uncombinable0": 1,
+                    "cf:uncombinable1": 1
+                }
             },
+            "minecraft:enchantment_glint_override": false,
             "minecraft:item_model": "cf:wooden_shovel",
             "minecraft:item_name": "{\"translate\":\"item.minecraft.wooden_shovel\"}",
             "minecraft:max_damage": 64,
-            "!minecraft:repairable": {},
+            "minecraft:repairable": {
+                "items":"minecraft:lapis_lazuli"
+            },
             "minecraft:tool": {
                 "rules": [
                     {
