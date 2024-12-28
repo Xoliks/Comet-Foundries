@@ -39,7 +39,7 @@
                         "correct_for_drops": false
                     },
                     {
-                        "blocks": "#minecraft:mineable/hoe",
+                        "blocks": "#cf:mineable/hoe",
                         "correct_for_drops": true,
                         "speed": 2
                     }

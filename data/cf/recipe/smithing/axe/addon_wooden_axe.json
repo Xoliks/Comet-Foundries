@@ -39,7 +39,7 @@
                         "correct_for_drops": false
                     },
                     {
-                        "blocks": "#minecraft:mineable/axe",
+                        "blocks": "#cf:mineable/axe",
                         "correct_for_drops": true,
                         "speed": 2
                     }

@@ -39,7 +39,7 @@
                         "correct_for_drops": false
                     },
                     {
-                        "blocks": "#minecraft:mineable/pickaxe",
+                        "blocks": "#cf:mineable/pickaxe",
                         "correct_for_drops": true,
                         "speed": 4
                     }

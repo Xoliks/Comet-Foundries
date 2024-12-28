@@ -1,19 +1,19 @@
 {
     "exclusive_set": "cf:uncombinable0",
     "anvil_cost": 0,
-    "description": "",
+    "description": "Uncombinable 1",
     "max_cost": {
-        "base": 0,
-        "per_level_above_first": 0
+      "base": 0,
+      "per_level_above_first": 0
     },
     "max_level": 1,
     "min_cost": {
-        "base": 0,
-        "per_level_above_first": 0
+      "base": 0,
+      "per_level_above_first": 0
     },
     "slots": [
-        "any"
+      "any"
     ],
     "supported_items": "#cf:smithable_tools",
     "weight": 1
-}
+  }

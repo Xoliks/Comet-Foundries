@@ -39,7 +39,7 @@
                         "correct_for_drops": false
                     },
                     {
-                        "blocks": "#minecraft:mineable/shovel",
+                        "blocks": "#cf:mineable/shovel",
                         "correct_for_drops": true,
                         "speed": 4
                     }

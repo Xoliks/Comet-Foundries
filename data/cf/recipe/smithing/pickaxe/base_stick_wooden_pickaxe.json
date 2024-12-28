@@ -27,7 +27,8 @@
             "minecraft:enchantable": {
                 "value": 15
             },
-            "minecraft:enchantments": {
+            "minecraft:stored_enchantments": {
+                "show_in_tooltip": false,
                 "levels": {
                     "cf:uncombinable0": 1,
                     "cf:uncombinable1": 1
@@ -47,7 +48,7 @@
                         "correct_for_drops": false
                     },
                     {
-                        "blocks": "#minecraft:mineable/pickaxe",
+                        "blocks": "#cf:mineable/pickaxe",
                         "correct_for_drops": true,
                         "speed": 2
                     }

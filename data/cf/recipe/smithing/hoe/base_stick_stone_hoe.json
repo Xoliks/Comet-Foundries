@@ -24,7 +24,8 @@
             "minecraft:enchantable": {
                 "value": 5
             },
-            "minecraft:enchantments": {
+            "minecraft:stored_enchantments": {
+                "show_in_tooltip": false,
                 "levels": {
                     "cf:uncombinable0": 1,
                     "cf:uncombinable1": 1
@@ -44,7 +45,7 @@
                         "correct_for_drops": false
                     },
                     {
-                        "blocks": "#minecraft:mineable/hoe",
+                        "blocks": "#cf:mineable/hoe",
                         "correct_for_drops": true,
                         "speed": 4
                     }
