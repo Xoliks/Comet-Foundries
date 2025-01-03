@@ -23,11 +23,7 @@
                     }
                 ]
             },
-            "minecraft:damage": 0,
-            "minecraft:enchantable": {
-                "value": 15
-            },
-            "minecraft:item_model": "cf:wooden_hoe",
+            "minecraft:item_model": "cf:tools/wooden_hoe",
             "minecraft:item_name": "{\"translate\":\"item.minecraft.wooden_hoe\"}",
             "minecraft:repairable": {
                 "items": "#minecraft:wooden_tool_materials"
@@ -35,11 +31,11 @@
             "minecraft:tool": {
                 "rules": [
                     {
-                        "blocks": "#minecraft:incorrect_for_wooden_tool",
+                        "blocks": "#cf:mineable/level_1/incorrect",
                         "correct_for_drops": false
                     },
                     {
-                        "blocks": "#cf:mineable/hoe",
+                        "blocks": "#cf:mineable/level_1/hoe",
                         "correct_for_drops": true,
                         "speed": 2
                     }

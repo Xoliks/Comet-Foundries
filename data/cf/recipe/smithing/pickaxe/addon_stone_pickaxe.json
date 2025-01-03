@@ -23,25 +23,21 @@
                     }
                 ]
             },
-            "minecraft:damage": 0,
-            "minecraft:enchantable": {
-                "value": 5
-            },
-            "minecraft:item_model": "cf:stone_pickaxe",
+            "minecraft:item_model": "cf:tools/stone_pickaxe",
             "minecraft:item_name": "{\"translate\":\"item.minecraft.stone_pickaxe\"}",
             "minecraft:repairable": {
-                "items": "#minecraft:stone_tool_materials"
+                "items":"minecraft:lapis_lazuli"
             },
             "minecraft:tool": {
                 "rules": [
                     {
-                        "blocks": "#minecraft:incorrect_for_stone_tool",
+                        "blocks": "#cf:mineable/level_2/incorrect",
                         "correct_for_drops": false
                     },
                     {
-                        "blocks": "#cf:mineable/pickaxe",
+                        "blocks": "#cf:mineable/level_2/pickaxe",
                         "correct_for_drops": true,
-                        "speed": 4
+                        "speed": 3
                     }
                 ]
             }

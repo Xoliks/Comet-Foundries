@@ -1,5 +1,7 @@
 {
   "values": [
+    "minecraft:stonecutter",
+
     "minecraft:note_block",
     "minecraft:attached_melon_stem",
     "minecraft:attached_pumpkin_stem",
@@ -86,8 +88,6 @@
     "minecraft:bamboo_mosaic_stairs",
     "#minecraft:bamboo_blocks",
     "minecraft:chiseled_bookshelf",
-    "minecraft:creaking_heart",
-    
-    "minecraft:stonecutter"
+    "minecraft:creaking_heart"
   ]
 }
