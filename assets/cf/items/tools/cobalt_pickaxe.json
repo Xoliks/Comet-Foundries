@@ -1,0 +1,36 @@
+{
+  "model": {
+      "type": "minecraft:composite",
+      "models": [
+          {
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "cases": [
+                  {
+                      "when": "stick",
+                      "model": {
+                          "type": "minecraft:model",
+                          "model": "cf:item/tools/stick_pickaxe_handle"
+                      }
+                  },
+                  {
+                      "when": "bone",
+                      "model": {
+                          "type": "minecraft:model",
+                          "model": "cf:item/tools/bone_pickaxe_handle"
+                      }
+                  }
+              ],
+              "fallback": {
+                  "type": "minecraft:model",
+                  "model": "cf:item/tools/stick_pickaxe_handle"
+              }
+          },
+          {
+              "type": "minecraft:model",
+              "model": "cf:item/tools/cobalt_pickaxe"
+          }
+      ]
+  }
+}

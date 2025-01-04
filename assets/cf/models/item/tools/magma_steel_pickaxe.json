@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "cf:item/tools/magma_steel_pickaxe"
+    }
+  }
