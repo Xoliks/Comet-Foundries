@@ -1,0 +1,37 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "cf:block/wood/plumeria/leaves"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "cf:block/wood/plumeria/leaves_flowers/0",
+          "weight": 10
+        },
+        {
+          "model": "cf:block/wood/plumeria/leaves_flowers/1",
+          "weight": 1
+        },
+        {
+          "model": "cf:block/wood/plumeria/leaves_flowers/2",
+          "weight": 1
+        },
+        {
+          "model": "cf:block/wood/plumeria/leaves_flowers/3",
+          "weight": 1
+        },
+        {
+          "model": "cf:block/wood/plumeria/leaves_flowers/4",
+          "weight": 1
+        },
+        {
+          "model": "cf:block/wood/plumeria/leaves_flowers/5",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

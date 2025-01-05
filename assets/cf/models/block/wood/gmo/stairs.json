@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "cf:block/wood/gmo/planks",
+    "side": "cf:block/wood/gmo/planks",
+    "top": "cf:block/wood/gmo/planks"
+  }
+}

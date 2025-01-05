@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "cf:block/wood/gmo/wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "cf:block/wood/gmo/wood"
+    },
+    "axis=z": {
+      "model": "cf:block/wood/gmo/wood",
+      "x": 90
+    }
+  }
+}

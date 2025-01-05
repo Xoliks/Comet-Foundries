@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cf:block/wood/gmo/slab"
+    },
+    "type=double": {
+      "model": "cf:block/wood/gmo/planks"
+    },
+    "type=top": {
+      "model": "cf:block/wood/gmo/slab_top"
+    }
+  }
+}

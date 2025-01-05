@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "cf:block/wood/plumeria/planks",
+    "side": "cf:block/wood/plumeria/planks",
+    "top": "cf:block/wood/plumeria/planks"
+  }
+}

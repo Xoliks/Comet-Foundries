@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cf:block/wood/plumeria/slab"
+    },
+    "type=double": {
+      "model": "cf:block/wood/plumeria/planks"
+    },
+    "type=top": {
+      "model": "cf:block/wood/plumeria/slab_top"
+    }
+  }
+}
