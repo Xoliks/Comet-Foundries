@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "#cf:smithable_tools",
+    "addition": "minecraft:netherite_ingot",
+    "template": "minecraft:raiser_armor_trim_smithing_template",
+    "result": {
+        "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:attack_damage",
+                        "amount": 2.5,
+                        "id": "minecraft:base_attack_damage",
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:attack_speed",
+                        "amount": -3,
+                        "id": "minecraft:base_attack_speed",
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ]
+            },
+            "minecraft:item_model": "cf:tools/titanium_axe",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.stone_axe\"}",
+            "minecraft:repairable": {
+                "items":"minecraft:lapis_lazuli"
+            },
+            "minecraft:tool": {
+                "rules": [
+                    {
+                        "blocks": "#cf:mineable/level_5/incorrect",
+                        "correct_for_drops": false
+                    },
+                    {
+                        "blocks": "#cf:mineable/level_5/axe",
+                        "correct_for_drops": true,
+                        "speed": 6
+                    }
+                ]
+            }
+        },
+        "count": 1,
+        "id": "minecraft:stone_axe"
+    }
+}
