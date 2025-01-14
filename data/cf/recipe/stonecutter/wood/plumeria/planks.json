@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#cf:wood/plumeria/logs",
+  "result": {
+      "count": 2,
+      "id": "minecraft:acacia_planks"
+  }
+}

@@ -1,16 +1,13 @@
 {
   "variants": {
     "axis=x": {
-      "model": "cf:block/wood/plumeria/stripped_wood",
-      "x": 90,
-      "y": 90
+      "model": "cf:block/wood/plumeria/chiseled_planks"
     },
     "axis=y": {
-      "model": "cf:block/wood/plumeria/stripped_wood"
+      "model": "cf:block/wood/plumeria/worn_planks"
     },
     "axis=z": {
-      "model": "cf:block/wood/plumeria/stripped_wood",
-      "x": 90
+      "model": "cf:block/wood/plumeria/pillar_planks"
     }
   }
 }

@@ -30,7 +30,7 @@
             "minecraft:enchantment_glint_override": false,
             "minecraft:item_model": "cf:tools/stone_hoe",
             "minecraft:item_name": "{\"translate\":\"item.minecraft.stone_hoe\"}",
-            "minecraft:max_damage": 64,
+            "minecraft:max_damage": 8,
             "minecraft:repairable": {
                 "items":"minecraft:lapis_lazuli"
             },

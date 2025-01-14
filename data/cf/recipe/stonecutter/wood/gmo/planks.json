@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#cf:wood/gmo/logs",
+  "result": {
+      "count": 2,
+      "id": "minecraft:dark_oak_planks"
+  }
+}

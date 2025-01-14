@@ -1,16 +1,13 @@
 {
   "variants": {
     "axis=x": {
-      "model": "cf:block/wood/gmo/stripped_wood",
-      "x": 90,
-      "y": 90
+      "model": "cf:block/wood/gmo/chiseled_planks"
     },
     "axis=y": {
-      "model": "cf:block/wood/gmo/stripped_wood"
+      "model": "cf:block/wood/gmo/worn_planks"
     },
     "axis=z": {
-      "model": "cf:block/wood/gmo/stripped_wood",
-      "x": 90
+      "model": "cf:block/wood/gmo/pillar_planks"
     }
   }
 }

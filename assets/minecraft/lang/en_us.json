@@ -88,6 +88,9 @@
     "block.minecraft.stripped_acacia_wood": "Stripped Plumeria Wood",
     "item.minecraft.acacia_boat": "Plumeria Boat",
     "item.minecraft.acacia_chest_boat": "Plumeria Boat with Chest",
+    "block.minecraft.chiseled_plumeria_planks": "Chiseled Plumeria Planks",
+    "block.minecraft.worn_plumeria_planks": "Worn Plumeria Planks",
+    "block.minecraft.pillar_plumeria_planks": "Plumeria Pillar Planks",
 
     "block.minecraft.spruce_button": "Balsam Fir Button",
     "block.minecraft.spruce_door": "Balsam Fir Door",
@@ -111,6 +114,9 @@
     "block.minecraft.stripped_spruce_wood": "Stripped Balsam Fir Wood",
     "item.minecraft.spruce_boat": "Balsam Fir Boat",
     "item.minecraft.spruce_chest_boat": "Balsam Fir Boat with Chest",
+    "block.minecraft.chiseled_balsam_fir_planks": "Chiseled Balsam Fir Planks",
+    "block.minecraft.worn_balsam_fir_planks": "Worn Balsam Fir Planks",
+    "block.minecraft.pillar_balsam_fir_planks": "Pillar Balsam Fir Planks",
 
     "block.minecraft.dark_oak_button": "GMO Button",
     "block.minecraft.dark_oak_door": "GMO Door",
@@ -134,6 +140,9 @@
     "block.minecraft.stripped_dark_oak_wood": "Stripped GMO Wood",
     "item.minecraft.dark_oak_boat": "GMO Boat",
     "item.minecraft.dark_oak_chest_boat": "GMO Boat with Chest",
+    "block.minecraft.chiseled_gmo_planks": "Chiseled GMO Planks",
+    "block.minecraft.worn_gmo_planks": "Worn GMO Planks",
+    "block.minecraft.pillar_gmo_planks": "Pillar GMO Planks",
 
     "block.minecraft.jungle_button": "Kapok Button",
     "block.minecraft.jungle_door": "Kapok Door",
@@ -157,6 +166,10 @@
     "block.minecraft.stripped_jungle_wood": "Stripped Kapok Wood",
     "item.minecraft.jungle_boat": "Kapok Boat",
     "item.minecraft.jungle_chest_boat": "Kapok Boat with Chest",
+    "block.minecraft.chiseled_kapok_planks": "Chiseled Kapok Planks",
+    "block.minecraft.worn_kapok_planks": "Worn Kapok Planks",
+    "block.minecraft.pillar_kapok_planks": "Pillar Kapok Planks",
+
 
     "block.minecraft.oak_button": "Apple Button",
     "block.minecraft.oak_door": "Apple Door",
@@ -180,6 +193,9 @@
     "block.minecraft.stripped_oak_wood": "Stripped Apple Wood",
     "item.minecraft.oak_boat": "Apple Boat",
     "item.minecraft.oak_chest_boat": "Apple Boat with Chest",
+    "block.minecraft.chiseled_apple_planks": "Chiseled Apple Planks",
+    "block.minecraft.worn_apple_planks": "Worn Apple Planks",
+    "block.minecraft.pillar_apple_planks": "Pillar Apple Planks",
 
     "block.minecraft.birch_button": "Paper Birch Button",
     "block.minecraft.birch_door": "Paper Birch Door",
@@ -203,6 +219,9 @@
     "block.minecraft.stripped_birch_wood": "Stripped Paper Birch Wood",
     "item.minecraft.birch_boat": "Paper Birch Boat",
     "item.minecraft.birch_chest_boat": "Paper Birch Boat with Chest",
+    "block.minecraft.chiseled_paper_birch_planks": "Chiseled Paper Birch Planks",
+    "block.minecraft.worn_paper_birch_planks": "Worn Paper Birch Planks",
+    "block.minecraft.pillar_paper_birch_planks": "Pillar Paper Birch Planks",
 
     "block.minecraft.cherry_button": "Crystal Button",
     "block.minecraft.cherry_door": "Crystal Door",
@@ -226,6 +245,9 @@
     "block.minecraft.stripped_cherry_wood": "Stripped Crystal Wood",
     "item.minecraft.cherry_boat": "Crystal Boat",
     "item.minecraft.cherry_chest_boat": "Crystal Boat with Chest",
+    "block.minecraft.chiseled_crystal_planks": "Chiseled Crystal Planks",
+    "block.minecraft.worn_crystal_planks": "Worn Crystal Planks",
+    "block.minecraft.pillar_crystal_planks": "Pillar Crystal Planks",
 
     "block.minecraft.pale_oak_button": "Dead Button",
     "block.minecraft.pale_oak_door": "Dead Door",
@@ -249,6 +271,9 @@
     "block.minecraft.stripped_pale_oak_wood": "Stripped Dead Wood",
     "item.minecraft.pale_oak_boat": "Dead Boat",
     "item.minecraft.pale_oak_chest_boat": "Dead Boat with Chest",
+    "block.minecraft.chiseled_dead_planks": "Chiseled Dead Planks",
+    "block.minecraft.worn_dead_planks": "Worn Dead Planks",
+    "block.minecraft.pillar_dead_planks": "Pillar Dead Planks",
 
     "block.minecraft.potted_warped_fungus": "Potted Ashen Sapling",
     "block.minecraft.stripped_warped_hyphae": "Stripped Ashen Wood",
@@ -270,6 +295,9 @@
     "block.minecraft.warped_wall_hanging_sign": "Ashen Wall Hanging Sign",
     "block.minecraft.warped_wall_sign": "Ashen Wall Sign",
     "block.minecraft.warped_wart_block": "Ashen Leaves",
+    "block.minecraft.chiseled_ashen_planks": "Chiseled Ashen Planks",
+    "block.minecraft.worn_ashen_planks": "Worn Ashen Planks",
+    "block.minecraft.pillar_ashen_planks": "Pillar Ashen Planks",
 
     "block.minecraft.potted_crimson_fungus": "Potted Lava Sapling",
     "block.minecraft.potted_crimson_roots": "Potted Lava Roots",
@@ -293,5 +321,9 @@
     "block.minecraft.crimson_trapdoor": "Lava Trapdoor",
     "block.minecraft.crimson_wall_hanging_sign": "Lava Wall Hanging Sign",
     "block.minecraft.crimson_wall_sign": "Lava Wall Sign",
-    "block.minecraft.nether_wart_block": "Lava Leaves"
+    "block.minecraft.nether_wart_block": "Lava Leaves",
+    "block.minecraft.chiseled_lava_planks": "Chiseled Lava Planks",
+    "block.minecraft.worn_lava_planks": "Worn Lava Planks",
+    "block.minecraft.pillar_lava_planks": "Pillar Lava Planks"
+
 }

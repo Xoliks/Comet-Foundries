@@ -1,6 +1,6 @@
 {
     "type": "minecraft:stonecutting",
-    "ingredient": "#minecraft:logs",
+    "ingredient": "#cf:wood/logs",
     "result": {
         "count": 1,
         "id": "minecraft:stonecutter"

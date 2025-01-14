@@ -33,7 +33,7 @@
             "minecraft:enchantment_glint_override": false,
             "minecraft:item_model": "cf:tools/iron_pickaxe",
             "minecraft:item_name": "{\"translate\":\"item.minecraft.stone_pickaxe\"}",
-            "minecraft:max_damage": 128,
+            "minecraft:max_damage": 32,
             "minecraft:repairable": {
                 "items":"minecraft:lapis_lazuli"
             },

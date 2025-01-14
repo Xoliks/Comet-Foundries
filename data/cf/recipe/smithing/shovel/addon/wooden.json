@@ -1,7 +1,7 @@
 {
     "type": "minecraft:smithing_transform",
     "base": "#cf:smithable_tools",
-    "addition": "#minecraft:planks",
+    "addition": "#cf:wood/planks",
     "template": "minecraft:wayfinder_armor_trim_smithing_template",
     "result": {
         "components": {

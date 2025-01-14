@@ -1,7 +1,7 @@
 {
     "type": "minecraft:smithing_transform",
     "base": "#cf:smithable_tools",
-    "addition": "minecraft:copper",
+    "addition": "minecraft:redstone",
     "template": "minecraft:raiser_armor_trim_smithing_template",
     "result": {
         "components": {
