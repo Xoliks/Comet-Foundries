@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "cf:block/wood/balsam_fir/sapling"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "cf:block/wood/balsam_fir/stripped_log_top",
+    "side": "cf:block/wood/balsam_fir/pillar_planks"
+  }
+}

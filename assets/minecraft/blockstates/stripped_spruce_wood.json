@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "cf:block/wood/balsam_fir/chiseled_planks"
+    },
+    "axis=y": {
+      "model": "cf:block/wood/balsam_fir/worn_planks"
+    },
+    "axis=z": {
+      "model": "cf:block/wood/balsam_fir/pillar_planks"
+    }
+  }
+}

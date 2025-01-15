@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#cf:wood/balsam_fir/logs",
+  "result": {
+      "id": "minecraft:stripped_spruce_wood",
+      "components": {
+          "minecraft:item_model": "cf:wood/balsam_fir/chiseled_planks",
+          "minecraft:item_name": "{\"translate\":\"block.minecraft.chiseled_balsam_fir_planks\"}",
+          "minecraft:block_state": {
+              "axis": "x"
+          }
+      },
+      "count": 2
+  }
+}

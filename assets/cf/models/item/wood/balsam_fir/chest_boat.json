@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cf:item/wood/balsam_fir/chest_boat"
+  }
+}

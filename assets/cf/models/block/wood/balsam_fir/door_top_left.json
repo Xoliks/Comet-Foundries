@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "cf:block/wood/balsam_fir/door_bottom",
+    "top": "cf:block/wood/balsam_fir/door_top"
+  }
+}

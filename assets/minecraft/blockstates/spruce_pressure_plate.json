@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "cf:block/wood/balsam_fir/pressure_plate"
+    },
+    "powered=true": {
+      "model": "cf:block/wood/balsam_fir/pressure_plate_down"
+    }
+  }
+}

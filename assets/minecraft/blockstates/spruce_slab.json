@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cf:block/wood/balsam_fir/slab"
+    },
+    "type=double": {
+      "model": "cf:block/wood/balsam_fir/planks"
+    },
+    "type=top": {
+      "model": "cf:block/wood/balsam_fir/slab_top"
+    }
+  }
+}

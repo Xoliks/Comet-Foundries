@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "cf:block/wood/balsam_fir/leaves"
+  }
+}
