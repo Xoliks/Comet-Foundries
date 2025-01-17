@@ -1,0 +1,77 @@
+{
+  "pools": [
+      {
+          "rolls": 1,
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:stripped_warped_hyphae",
+                  "functions": [
+                      {
+                          "function": "minecraft:set_components",
+                          "components": {
+                              "minecraft:item_model": "cf:wood/ash/chiseled_planks",
+                              "minecraft:item_name": "{\"translate\":\"block.minecraft.chiseled_ash_planks\"}",
+                              "minecraft:block_state": {
+                                  "axis": "x"
+                              }
+                          },
+                          "conditions": [
+                              {
+                                  "condition": "minecraft:block_state_property",
+                                  "block": "minecraft:stripped_warped_hyphae",
+                                  "properties": {
+                                      "axis": "x"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "function": "minecraft:set_components",
+                          "components": {
+                              "minecraft:item_model": "cf:wood/ash/worn_planks",
+                              "minecraft:item_name": "{\"translate\":\"block.minecraft.worn_ash_planks\"}",
+                              "minecraft:block_state": {
+                                  "axis": "y"
+                              }
+                          },
+                          "conditions": [
+                              {
+                                  "condition": "minecraft:block_state_property",
+                                  "block": "minecraft:stripped_warped_hyphae",
+                                  "properties": {
+                                      "axis": "y"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "function": "minecraft:set_components",
+                          "components": {
+                              "minecraft:item_model": "cf:wood/ash/pillar_planks",
+                              "minecraft:item_name": "{\"translate\":\"block.minecraft.pillar_ash_planks\"}",
+                              "minecraft:block_state": {
+                                  "axis": "z"
+                              }
+                          },
+                          "conditions": [
+                              {
+                                  "condition": "minecraft:block_state_property",
+                                  "block": "minecraft:stripped_warped_hyphae",
+                                  "properties": {
+                                      "axis": "z"
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "conditions": [
+                      {
+                          "condition": "minecraft:survives_explosion"
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}

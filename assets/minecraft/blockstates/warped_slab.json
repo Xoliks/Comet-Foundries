@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cf:block/wood/ash/slab"
+    },
+    "type=double": {
+      "model": "cf:block/wood/ash/planks"
+    },
+    "type=top": {
+      "model": "cf:block/wood/ash/slab_top"
+    }
+  }
+}

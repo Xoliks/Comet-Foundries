@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#cf:wood/ash/logs",
+  "result": {
+    "id": "minecraft:stripped_warped_hyphae",
+    "components": {
+      "minecraft:item_model": "cf:wood/ash/pillar_planks",
+      "minecraft:item_name": "{\"translate\":\"block.minecraft.pillar_ash_planks\"}",
+      "minecraft:block_state": {
+        "axis": "z"
+      }
+    },
+    "count": 2
+  }
+}

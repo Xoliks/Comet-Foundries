@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "cf:block/wood/ash/chiseled_planks"
+    },
+    "axis=y": {
+      "model": "cf:block/wood/ash/worn_planks"
+    },
+    "axis=z": {
+      "model": "cf:block/wood/ash/pillar_planks"
+    }
+  }
+}
