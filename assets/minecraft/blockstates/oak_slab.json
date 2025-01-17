@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cf:block/wood/apple/slab"
+    },
+    "type=double": {
+      "model": "cf:block/wood/apple/planks"
+    },
+    "type=top": {
+      "model": "cf:block/wood/apple/slab_top"
+    }
+  }
+}

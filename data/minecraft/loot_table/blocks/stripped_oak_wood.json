@@ -1,0 +1,77 @@
+{
+  "pools": [
+      {
+          "rolls": 1,
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:stripped_oak_wood",
+                  "functions": [
+                      {
+                          "function": "minecraft:set_components",
+                          "components": {
+                              "minecraft:item_model": "cf:wood/apple/chiseled_planks",
+                              "minecraft:item_name": "{\"translate\":\"block.minecraft.chiseled_apple_planks\"}",
+                              "minecraft:block_state": {
+                                  "axis": "x"
+                              }
+                          },
+                          "conditions": [
+                              {
+                                  "condition": "minecraft:block_state_property",
+                                  "block": "minecraft:stripped_oak_wood",
+                                  "properties": {
+                                      "axis": "x"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "function": "minecraft:set_components",
+                          "components": {
+                              "minecraft:item_model": "cf:wood/apple/worn_planks",
+                              "minecraft:item_name": "{\"translate\":\"block.minecraft.worn_apple_planks\"}",
+                              "minecraft:block_state": {
+                                  "axis": "y"
+                              }
+                          },
+                          "conditions": [
+                              {
+                                  "condition": "minecraft:block_state_property",
+                                  "block": "minecraft:stripped_oak_wood",
+                                  "properties": {
+                                      "axis": "y"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "function": "minecraft:set_components",
+                          "components": {
+                              "minecraft:item_model": "cf:wood/apple/pillar_planks",
+                              "minecraft:item_name": "{\"translate\":\"block.minecraft.pillar_apple_planks\"}",
+                              "minecraft:block_state": {
+                                  "axis": "z"
+                              }
+                          },
+                          "conditions": [
+                              {
+                                  "condition": "minecraft:block_state_property",
+                                  "block": "minecraft:stripped_oak_wood",
+                                  "properties": {
+                                      "axis": "z"
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "conditions": [
+                      {
+                          "condition": "minecraft:survives_explosion"
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "cf:block/wood/apple/door_bottom",
+    "top": "cf:block/wood/apple/door_top"
+  }
+}

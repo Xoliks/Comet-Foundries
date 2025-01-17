@@ -1,4 +1,7 @@
 {
+
+    "menu.game": "\uF000",
+    "menu.returnToGame": "Back to Game",
     "cf.rp.description": "Comet Foundries",
 
     "block.minecraft.stonecutter": "Workbench",

@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "cf:font/title/pause.png",
+      "height": 55,
+      "ascent": 30,
+      "chars": [
+        "\uF000"
+      ]
+    }
+  ]
+}
