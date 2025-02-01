@@ -21,7 +21,12 @@
                     "slot": "mainhand"
                 }
             ],
-            "minecraft:item_model": "cf:tools/stone/shovel",
+            "minecraft:item_model": "cf:tools/shovel",
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "stone"
+                ]
+            },
             "minecraft:item_name": {"translate":"item.minecraft.stone_shovel"},
             "minecraft:repairable": {
                 "items":"minecraft:lapis_lazuli"

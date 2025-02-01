@@ -21,7 +21,12 @@
                     "slot": "mainhand"
                 }
             ],
-            "minecraft:item_model": "cf:tools/wooden/hoe",
+            "minecraft:item_model": "cf:tools/hoe",
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "wooden"
+                ]
+            },
             "minecraft:item_name": {"translate":"item.minecraft.stone_hoe"},
             "minecraft:repairable": {
                 "items": "#minecraft:stone_tool_materials"

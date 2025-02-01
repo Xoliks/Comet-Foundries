@@ -21,7 +21,12 @@
                     "slot": "mainhand"
                 }
             ],
-            "minecraft:item_model": "cf:tools/magma_steel/hoe",
+            "minecraft:item_model": "cf:tools/hoe",
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "magma_steel"
+                ]
+            },
             "minecraft:item_name": {"translate":"item.minecraft.stone_hoe"},
             "minecraft:repairable": {
                 "items":"minecraft:lapis_lazuli"

@@ -21,10 +21,17 @@
                     "slot": "mainhand"
                 }
             ],
-            "minecraft:item_model": "cf:tools/cobalt/axe",
-            "minecraft:item_name": {"translate":"item.minecraft.stone_axe"},
+            "minecraft:item_model": "cf:tools/axe",
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "cobalt"
+                ]
+            },
+            "minecraft:item_name": {
+                "translate": "item.minecraft.stone_axe"
+            },
             "minecraft:repairable": {
-                "items":"minecraft:lapis_lazuli"
+                "items": "minecraft:lapis_lazuli"
             },
             "minecraft:tool": {
                 "rules": [

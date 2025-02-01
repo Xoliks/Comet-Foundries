@@ -31,8 +31,12 @@
                 ]
             },
             "minecraft:enchantment_glint_override": false,
-            "minecraft:item_model": "cf:tools/stone/shovel",
-            "minecraft:item_name": {"translate":"item.minecraft.stone_shovel"},
+            "minecraft:item_model": "cf:tools/shovel",
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "stone"
+                ]
+            },            "minecraft:item_name": {"translate":"item.minecraft.stone_shovel"},
             "minecraft:max_damage": 8,
             "minecraft:repairable": {
                 "items":"minecraft:lapis_lazuli"

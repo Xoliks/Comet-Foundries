@@ -21,7 +21,12 @@
                     "slot": "mainhand"
                 }
             ],
-            "minecraft:item_model": "cf:tools/magma_steel/pickaxe",
+            "minecraft:item_model": "cf:tools/pickaxe",
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "magma_steel"
+                ]
+            },
             "minecraft:item_name": {"translate":"item.minecraft.stone_pickaxe"},
             "minecraft:repairable": {
                 "items":"minecraft:lapis_lazuli"
