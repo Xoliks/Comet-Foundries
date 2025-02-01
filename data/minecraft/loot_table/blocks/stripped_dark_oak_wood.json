@@ -11,7 +11,7 @@
                           "function": "minecraft:set_components",
                           "components": {
                               "minecraft:item_model": "cf:wood/gmo/chiseled_planks",
-                              "minecraft:item_name": "{\"translate\":\"block.minecraft.chiseled_gmo_planks\"}",
+                              "minecraft:item_name": {"translate":"block.minecraft.chiseled_gmo_planks"},
                               "minecraft:block_state": {
                                   "axis": "x"
                               }
@@ -30,7 +30,7 @@
                           "function": "minecraft:set_components",
                           "components": {
                               "minecraft:item_model": "cf:wood/gmo/worn_planks",
-                              "minecraft:item_name": "{\"translate\":\"block.minecraft.worn_gmo_planks\"}",
+                              "minecraft:item_name": {"translate":"block.minecraft.worn_gmo_planks"},
                               "minecraft:block_state": {
                                   "axis": "y"
                               }
@@ -49,7 +49,7 @@
                           "function": "minecraft:set_components",
                           "components": {
                               "minecraft:item_model": "cf:wood/gmo/pillar_planks",
-                              "minecraft:item_name": "{\"translate\":\"block.minecraft.pillar_gmo_planks\"}",
+                              "minecraft:item_name": {"translate":"block.minecraft.pillar_gmo_planks"},
                               "minecraft:block_state": {
                                   "axis": "z"
                               }

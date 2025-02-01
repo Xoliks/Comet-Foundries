@@ -5,12 +5,7 @@
     "template": "minecraft:sentry_armor_trim_smithing_template",
     "result": {
         "components": {
-            "minecraft:max_damage": 8,
-            "minecraft:custom_model_data": {
-                "strings": [
-                    "stick"
-                ]
-            }
+            "minecraft:max_damage": 8
         },
         "count": 1,
         "id": "minecraft:stone_pickaxe"

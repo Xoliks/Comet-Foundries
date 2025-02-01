@@ -5,37 +5,37 @@
     "template": "minecraft:raiser_armor_trim_smithing_template",
     "result": {
         "components": {
-            "minecraft:attribute_modifiers": {
-                "modifiers": [
-                    {
-                        "type": "minecraft:attack_damage",
-                        "amount": 8,
-                        "id": "minecraft:base_attack_damage",
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    },
-                    {
-                        "type": "minecraft:attack_speed",
-                        "amount": -3,
-                        "id": "minecraft:base_attack_speed",
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    }
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:attack_damage",
+                    "amount": 8,
+                    "id": "minecraft:base_attack_damage",
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "type": "minecraft:attack_speed",
+                    "amount": -3,
+                    "id": "minecraft:base_attack_speed",
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+            ],
+            "minecraft:stored_enchantments": {
+                "cf:uncombinable0": 1,
+                "cf:uncombinable1": 1
+            },
+            "minecraft:tooltip_display": {
+                "hidden_components": [
+                    "minecraft:stored_enchantments"
                 ]
             },
-            "minecraft:stored_enchantments": {
-                "show_in_tooltip": false,
-                "levels": {
-                    "cf:uncombinable0": 1,
-                    "cf:uncombinable1": 1
-                }
-            },
             "minecraft:enchantment_glint_override": false,
-            "minecraft:item_model": "cf:tools/copper_axe",
-            "minecraft:item_name": "{\"translate\":\"item.minecraft.stone_axe\"}",
+            "minecraft:item_model": "cf:tools/copper/axe",
+            "minecraft:item_name": {"translate":"item.minecraft.stone_axe"},
             "minecraft:max_damage": 8,
             "minecraft:repairable": {
-                "items":"minecraft:lapis_lazuli"
+                "items": "minecraft:lapis_lazuli"
             },
             "minecraft:tool": {
                 "rules": [
@@ -48,11 +48,6 @@
                         "correct_for_drops": true,
                         "speed": 4
                     }
-                ]
-            },
-            "minecraft:custom_model_data": {
-                "strings": [
-                    "stick"
                 ]
             }
         },

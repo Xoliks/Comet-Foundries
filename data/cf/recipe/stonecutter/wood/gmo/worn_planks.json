@@ -5,7 +5,7 @@
     "id": "minecraft:stripped_dark_oak_wood",
     "components": {
       "minecraft:item_model": "cf:wood/gmo/worn_planks",
-      "minecraft:item_name": "{\"translate\":\"block.minecraft.worn_gmo_planks\"}",
+      "minecraft:item_name": {"translate":"block.minecraft.worn_gmo_planks"},
       "minecraft:block_state": {
         "axis": "y"
       }

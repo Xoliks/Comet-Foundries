@@ -5,7 +5,7 @@
       "id": "minecraft:stripped_warped_hyphae",
       "components": {
           "minecraft:item_model": "cf:wood/ash/chiseled_planks",
-          "minecraft:item_name": "{\"translate\":\"block.minecraft.chiseled_ash_planks\"}",
+          "minecraft:item_name": {"translate":"block.minecraft.chiseled_ash_planks"},
           "minecraft:block_state": {
               "axis": "x"
           }

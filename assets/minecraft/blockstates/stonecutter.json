@@ -1,46 +1,44 @@
 {
-  "multipart": [
+    "multipart": [
       {
-          "apply": {
-              "model": "minecraft:block/brown_carpet",
-              "uvlock": true
-          }
+        "when": {
+          "facing": "north"
+        },
+        "apply": {
+          "model": "minecraft:block/brown_carpet"
+        }
       },
       {
-          "when": {
-              "facing": "north"
-          },
-          "apply": {
-              "model": "cf:block/stonecutter",
-              "y": 0
-          }
+        "when": {
+          "facing": "north"
+        },
+        "apply": {
+          "model": "cf:block/wooden_workbench"
+        }
       },
       {
-          "when": {
-              "facing": "east"
-          },
-          "apply": {
-              "model": "cf:block/stonecutter",
-              "y": 90
-          }
+        "when": {
+          "facing": "east"
+        },
+        "apply": {
+          "model": "minecraft:block/stonecutter"
+        }
       },
       {
-          "when": {
-              "facing": "south"
-          },
-          "apply": {
-              "model": "cf:block/stonecutter",
-              "y": 180
-          }
+        "when": {
+          "facing": "south"
+        },
+        "apply": {
+          "model": "minecraft:block/stonecutter"
+        }
       },
       {
-          "when": {
-              "facing": "west"
-          },
-          "apply": {
-              "model": "cf:block/stonecutter",
-              "y": 270
-          }
+        "when": {
+          "facing": "west"
+        },
+        "apply": {
+          "model": "minecraft:block/stonecutter"
+        }
       }
-  ]
-}
+    ]
+  }

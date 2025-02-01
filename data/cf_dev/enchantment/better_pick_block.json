@@ -1,0 +1,28 @@
+{
+  "anvil_cost": 1,
+  "description": "Better Pick Block",
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cf_dev:give_loot_mine"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "minecraft:wooden_sword",
+  "weight": 1
+}

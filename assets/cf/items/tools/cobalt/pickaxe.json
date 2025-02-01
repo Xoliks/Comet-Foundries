@@ -4,18 +4,18 @@
       "models": [
           {
               "type": "minecraft:select",
-              "property": "minecraft:custom_model_data",
-              "index": 0,
+              "property": "minecraft:component",
+              "component": "minecraft:max_damage",
               "cases": [
                   {
-                      "when": "stick",
+                      "when": 8,
                       "model": {
                           "type": "minecraft:model",
                           "model": "cf:item/tools/stick_pickaxe_handle"
                       }
                   },
                   {
-                      "when": "bone",
+                      "when": 32,
                       "model": {
                           "type": "minecraft:model",
                           "model": "cf:item/tools/bone_pickaxe_handle"

@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cf:item/workbench/wooden",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "state": {
+                    "facing": "north"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cf:item/workbench/east",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "state": {
+                    "facing": "east"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cf:item/workbench/south",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "state": {
+                    "facing": "south"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cf:item/workbench/west",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "state": {
+                    "facing": "west"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/stonecutter"
+}

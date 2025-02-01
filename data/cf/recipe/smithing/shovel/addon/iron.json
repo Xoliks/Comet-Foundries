@@ -5,26 +5,24 @@
     "template": "minecraft:wayfinder_armor_trim_smithing_template",
     "result": {
         "components": {
-            "minecraft:attribute_modifiers": {
-                "modifiers": [
-                    {
-                        "type": "minecraft:attack_damage",
-                        "amount": 2.5,
-                        "id": "minecraft:base_attack_damage",
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    },
-                    {
-                        "type": "minecraft:attack_speed",
-                        "amount": -3,
-                        "id": "minecraft:base_attack_speed",
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    }
-                ]
-            },
-            "minecraft:item_model": "cf:tools/iron_shovel",
-            "minecraft:item_name": "{\"translate\":\"item.minecraft.stone_shovel\"}",
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:attack_damage",
+                    "amount": 2.5,
+                    "id": "minecraft:base_attack_damage",
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "type": "minecraft:attack_speed",
+                    "amount": -3,
+                    "id": "minecraft:base_attack_speed",
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+            ],
+            "minecraft:item_model": "cf:tools/iron/shovel",
+            "minecraft:item_name": {"translate":"item.minecraft.stone_shovel"},
             "minecraft:repairable": {
                 "items":"minecraft:lapis_lazuli"
             },

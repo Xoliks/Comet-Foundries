@@ -5,38 +5,41 @@
     "template": "minecraft:shaper_armor_trim_smithing_template",
     "result": {
         "components": {
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
-					"type": "minecraft:attack_damage",
-					"amount": 0.0,
-					"id": "minecraft:base_attack_damage",
-					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"type": "minecraft:attack_speed",
-					"amount": -3.0,
-					"id": "minecraft:base_attack_speed",
-					"operation": "add_value",
-					"slot": "mainhand"
-				}]
-			},
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:attack_damage",
+                    "amount": 2.5,
+                    "id": "minecraft:base_attack_damage",
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "type": "minecraft:attack_speed",
+                    "amount": -3,
+                    "id": "minecraft:base_attack_speed",
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+            ],
             "minecraft:damage": 0,
             "minecraft:enchantable": {
                 "value": 15
             },
             "minecraft:stored_enchantments": {
-                "show_in_tooltip": false,
-                "levels": {
-                    "cf:uncombinable0": 1,
-                    "cf:uncombinable1": 1
-                }
+                "cf:uncombinable0": 1,
+                "cf:uncombinable1": 1
+            },
+            "minecraft:tooltip_display": {
+                "hidden_components": [
+                    "minecraft:stored_enchantments"
+                ]
             },
             "minecraft:enchantment_glint_override": false,
-            "minecraft:item_model": "cf:tools/wooden_hoe",
-            "minecraft:item_name": "{\"translate\":\"item.minecraft.wooden_hoe\"}",
+            "minecraft:item_model": "cf:tools/wooden/hoe",
+            "minecraft:item_name": {"translate":"item.minecraft.stone_hoe"},
             "minecraft:max_damage": 32,
             "minecraft:repairable": {
-                "items":"minecraft:lapis_lazuli"
+                "items": "minecraft:lapis_lazuli"
             },
             "minecraft:tool": {
                 "rules": [
@@ -50,14 +53,9 @@
                         "speed": 2
                     }
                 ]
-            },
-            "minecraft:custom_model_data": {
-                "strings": [
-                    "bone"
-                ]
             }
         },
         "count": 1,
-        "id": "minecraft:wooden_hoe"
+        "id": "minecraft:stone_hoe"
     }
 }

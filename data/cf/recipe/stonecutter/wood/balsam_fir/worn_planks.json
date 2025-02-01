@@ -5,7 +5,7 @@
     "id": "minecraft:stripped_spruce_wood",
     "components": {
       "minecraft:item_model": "cf:wood/balsam_fir/worn_planks",
-      "minecraft:item_name": "{\"translate\":\"block.minecraft.worn_balsam_fir_planks\"}",
+      "minecraft:item_name": {"translate":"block.minecraft.worn_balsam_fir_planks"},
       "minecraft:block_state": {
         "axis": "y"
       }

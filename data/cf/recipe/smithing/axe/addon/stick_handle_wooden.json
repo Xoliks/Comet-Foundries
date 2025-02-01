@@ -1,18 +1,13 @@
 {
     "type": "minecraft:smithing_transform",
-    "base": "minecraft:wooden_axe",
+    "base": "minecraft:stone_axe",
     "addition": "minecraft:stick",
     "template": "minecraft:sentry_armor_trim_smithing_template",
     "result": {
         "components": {
-            "minecraft:max_damage": 8,
-            "minecraft:custom_model_data": {
-                "strings": [
-                    "stick"
-                ]
-            }
+            "minecraft:max_damage": 8
         },
         "count": 1,
-        "id": "minecraft:wooden_axe"
+        "id": "minecraft:stone_axe"
     }
 }
