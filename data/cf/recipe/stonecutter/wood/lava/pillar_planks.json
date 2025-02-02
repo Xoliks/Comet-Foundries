@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#cf:wood/lava/logs",
+  "result": {
+    "id": "minecraft:stripped_crimson_hyphae",
+    "components": {
+      "minecraft:item_model": "cf:wood/lava/pillar_planks",
+      "minecraft:item_name": {"translate":"block.minecraft.pillar_lava_planks"},
+      "minecraft:block_state": {
+        "axis": "z"
+      }
+    },
+    "count": 2
+  }
+}

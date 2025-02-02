@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "cf:block/wood/lava/chiseled_planks"
+    },
+    "axis=y": {
+      "model": "cf:block/wood/lava/worn_planks"
+    },
+    "axis=z": {
+      "model": "cf:block/wood/lava/pillar_planks"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#cf:wood/apple/logs",
+  "result": {
+    "id": "minecraft:stripped_oak_wood",
+    "components": {
+      "minecraft:item_model": "cf:wood/apple/pillar_planks",
+      "minecraft:item_name": {"translate":"block.minecraft.pillar_apple_planks"},
+      "minecraft:block_state": {
+        "axis": "z"
+      }
+    },
+    "count": 2
+  }
+}

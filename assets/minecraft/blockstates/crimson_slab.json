@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cf:block/wood/lava/slab"
+    },
+    "type=double": {
+      "model": "cf:block/wood/lava/planks"
+    },
+    "type=top": {
+      "model": "cf:block/wood/lava/slab_top"
+    }
+  }
+}
