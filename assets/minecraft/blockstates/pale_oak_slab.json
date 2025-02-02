@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cf:block/wood/dead/slab"
+    },
+    "type=double": {
+      "model": "cf:block/wood/dead/planks"
+    },
+    "type=top": {
+      "model": "cf:block/wood/dead/slab_top"
+    }
+  }
+}
