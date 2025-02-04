@@ -9,13 +9,10 @@
           "value": "cf:item/workbench/wooden",
           "conditions": [
             {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "block": {
-                  "state": {
-                    "facing": "north"
-                  }
-                }
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:stonecutter",
+              "properties": {
+                "facing": "north"
               }
             }
           ]
@@ -25,13 +22,10 @@
           "value": "cf:item/workbench/east",
           "conditions": [
             {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "block": {
-                  "state": {
-                    "facing": "east"
-                  }
-                }
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:stonecutter",
+              "properties": {
+                "facing": "east"
               }
             }
           ]
@@ -41,13 +35,10 @@
           "value": "cf:item/workbench/south",
           "conditions": [
             {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "block": {
-                  "state": {
-                    "facing": "south"
-                  }
-                }
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:stonecutter",
+              "properties": {
+                "facing": "south"
               }
             }
           ]
@@ -57,13 +48,10 @@
           "value": "cf:item/workbench/west",
           "conditions": [
             {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "block": {
-                  "state": {
-                    "facing": "west"
-                  }
-                }
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:stonecutter",
+              "properties": {
+                "facing": "west"
               }
             }
           ]
