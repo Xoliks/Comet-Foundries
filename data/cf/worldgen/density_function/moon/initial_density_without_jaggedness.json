@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:min",
+  "type": "minecraft:add",
   "argument1": {
     "type": "minecraft:add",
     "argument1": {
@@ -15,5 +15,5 @@
     },
     "argument2": "cf:moon/base_hightmap"
   },
-  "argument2": "cf:overworld_caves"
+  "argument2": -4
 }
