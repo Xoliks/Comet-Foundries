@@ -21,7 +21,7 @@
         "requirements": {
           "condition": "minecraft:time_check",
           "value": 0,
-          "period": 200
+          "period": 100
         },
         "effect": {
           "type": "minecraft:run_function",
