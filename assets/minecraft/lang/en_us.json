@@ -329,6 +329,11 @@
     "block.minecraft.nether_wart_block": "Lava Leaves",
     "block.minecraft.chiseled_lava_planks": "Chiseled Lava Planks",
     "block.minecraft.worn_lava_planks": "Worn Lava Planks",
-    "block.minecraft.pillar_lava_planks": "Pillar Lava Planks"
+    "block.minecraft.pillar_lava_planks": "Pillar Lava Planks",
 
+    "block.minecraft.barrel": "Crate",
+    "container.barrel": "Crate",
+    "stat.minecraft.open_barrel": "Crates Opened",
+    "subtitles.block.barrel.close": "Crate closes",
+    "subtitles.block.barrel.open": "Crate opens"
 }

@@ -13,7 +13,7 @@
           "facing": "north"
         },
         "apply": {
-          "model": "cf:block/wooden_workbench"
+          "model": "cf:block/workbench/wooden"
         }
       },
       {

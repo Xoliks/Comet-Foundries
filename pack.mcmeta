@@ -1,14 +1,10 @@
 {
     "pack": {
-      "pack_format": 46,
+      "pack_format": 66,
       "description": {
         "fallback": "Comet Foundries",
         "translate": "cf.dp.description"
-      },
-      "supported_formats": [
-        61,
-        46
-      ]
+      }
     },
     "filter": {
       "block": [

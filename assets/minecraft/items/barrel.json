@@ -5,37 +5,51 @@
     "block_state_property": "facing",
     "cases": [
       {
+        "when": "up",
+        "model": {
+          "type": "minecraft:model",
+          "model": "cf:block/crate/wooden"
+        }
+      },
+      {
+        "when": "down",
+        "model": {
+          "type": "minecraft:model",
+          "model": "cf:block/crate/down"
+        }
+      },
+      {
         "when": "north",
         "model": {
           "type": "minecraft:model",
-          "model": "cf:block/workbench/wooden"
+          "model": "cf:block/crate/north"
         }
       },
       {
         "when": "east",
         "model": {
           "type": "minecraft:model",
-          "model": "cf:block/workbench/east"
+          "model": "cf:block/crate/east"
         }
       },
       {
         "when": "south",
         "model": {
           "type": "minecraft:model",
-          "model": "cf:block/workbench/south"
+          "model": "cf:block/crate/south"
         }
       },
       {
         "when": "west",
         "model": {
           "type": "minecraft:model",
-          "model": "cf:block/workbench/west"
+          "model": "cf:block/crate/west"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "cf:block/workbench/wooden"
+      "model": "cf:block/crate/wooden"
     }
   }
 }
