@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#cf:wood/paper_birch/logs",
-    "result": {
-        "count": 2,
-        "id": "minecraft:birch_planks"
-    }
-}

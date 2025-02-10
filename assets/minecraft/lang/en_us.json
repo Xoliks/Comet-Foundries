@@ -335,5 +335,7 @@
     "container.barrel": "Crate",
     "stat.minecraft.open_barrel": "Crates Opened",
     "subtitles.block.barrel.close": "Crate closes",
-    "subtitles.block.barrel.open": "Crate opens"
+    "subtitles.block.barrel.open": "Crate opens",
+
+    "block.minecraft.dropper": "Slat Crate"
 }

@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "#cf:wood/logs",
+    "result": {
+      "components": {
+        "minecraft:block_state": {
+          "facing": "up"
+        }
+      },
+      "count": 1,
+      "id": "minecraft:barrel"
+    }
+  }

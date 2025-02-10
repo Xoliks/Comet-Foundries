@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#cf:wood/dead/logs",
+  "result": {
+      "id": "minecraft:stripped_pale_oak_wood",
+      "components": {
+          "minecraft:item_model": "cf:wood/dead/chiseled_planks",
+          "minecraft:item_name": {"translate":"block.minecraft.chiseled_dead_planks"},
+          "minecraft:block_state": {
+              "axis": "x"
+          }
+      },
+      "count": 2
+  }
+}
