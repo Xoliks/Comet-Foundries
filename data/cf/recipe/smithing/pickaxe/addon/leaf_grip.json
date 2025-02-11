@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smithing_transform",
-  "base": "minecraft:stone_pickaxe",
+  "base": "minecraft:iron_pickaxe",
   "addition": "#minecraft:leaves",
   "template": "minecraft:dune_armor_trim_smithing_template",
   "result": {
@@ -30,6 +30,6 @@
       ]
     },
     "count": 1,
-    "id": "minecraft:stone_pickaxe"
+    "id": "minecraft:iron_pickaxe"
   }
 }

@@ -22,7 +22,7 @@ Dead planet        |4     |Creaking Mob??                    |            |Deadw
 Jagged Planet      |4     |                                  |            |                    |Coal, Copper, Cobalt, Iron, Gold              |
 Toxic Swamp Planet |5     |Water and rain cause damage       |Packed Mud  |Mangrove Wood       |Uranium, Gold, Cobalt                         |
 Cracked Planet     |5     |Cracks to the void                |Deepslate   |                    |Gold, Copper, Zinc, Titanium                  |
-Volcano planet     |6     |Rains lava & ash                  |Blackstone  |Ash & Lava wood   |Coal, Copper, Cobalt, Iron, Gold, Magma Steel |
+Volcano planet     |6     |Rains lava & ash                  |Blackstone  |Ash & Lava wood     |Coal, Copper, Cobalt, Iron, Gold, Magma Steel |
 Crystal Planet     |6     |Rains sharp crystals              |            |Crystal Wood??      |Diamonds                                      |
 
 Hollow Planet??

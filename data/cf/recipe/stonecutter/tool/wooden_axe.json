@@ -1,69 +1,105 @@
 {
-    "type": "minecraft:stonecutting",
-    "base": "minecraft:stick",
-    "addition": "#cf:wood/planks",
-    "template": "minecraft:raiser_armor_trim_smithing_template",
-    "ingredient": "#cf:wood/logs",
-    "result": {
-      "components": {
-        "minecraft:attribute_modifiers": [
+  "type": "minecraft:stonecutting",
+  "base": "minecraft:stick",
+  "addition": "#cf:wood/planks",
+  "template": "minecraft:raiser_armor_trim_smithing_template",
+  "ingredient": "#cf:wood/logs",
+  "result": {
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 6,
+          "id": "minecraft:base_attack_damage",
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "amount": -3,
+          "id": "minecraft:base_attack_speed",
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:damage": 0,
+      "minecraft:enchantable": {
+        "value": 15
+      },
+      "minecraft:stored_enchantments": {
+        "cf:uncombinable0": 1,
+        "cf:uncombinable1": 1
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:stored_enchantments"
+        ]
+      },
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:item_model": "cf:tools/axe",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "wooden"
+        ]
+      },
+      "minecraft:item_name": {
+        "translate": "item.cf.wooden_axe"
+      },
+      "minecraft:max_damage": 8,
+      "minecraft:repairable": {
+        "items": "minecraft:lapis_lazuli"
+      },
+      "minecraft:tool": {
+        "rules": [
           {
-            "type": "minecraft:attack_damage",
-            "amount": 6,
-            "id": "minecraft:base_attack_damage",
-            "operation": "add_value",
-            "slot": "mainhand"
+            "blocks": "#cf:mineable/level_1/incorrect",
+            "correct_for_drops": false
           },
           {
-            "type": "minecraft:attack_speed",
-            "amount": -3,
-            "id": "minecraft:base_attack_speed",
-            "operation": "add_value",
-            "slot": "mainhand"
+            "blocks": "#cf:mineable/level_2/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_3/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_4/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_5/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_6/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_7/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_8/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_9/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_10/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_1/axe",
+            "correct_for_drops": true,
+            "speed": 2
           }
-        ],
-        "minecraft:damage": 0,
-        "minecraft:enchantable": {
-          "value": 15
-        },
-        "minecraft:stored_enchantments": {
-          "cf:uncombinable0": 1,
-          "cf:uncombinable1": 1
-        },
-        "minecraft:tooltip_display": {
-          "hidden_components": [
-            "minecraft:stored_enchantments"
-          ]
-        },
-        "minecraft:enchantment_glint_override": false,
-        "minecraft:item_model": "cf:tools/axe",
-        "minecraft:custom_model_data": {
-          "strings": [
-            "wooden"
-          ]
-        },
-        "minecraft:item_name": {
-          "translate": "item.minecraft.stone_axe"
-        },
-        "minecraft:max_damage": 8,
-        "minecraft:repairable": {
-          "items": "minecraft:lapis_lazuli"
-        },
-        "minecraft:tool": {
-          "rules": [
-            {
-              "blocks": "#cf:mineable/level_1/incorrect",
-              "correct_for_drops": false
-            },
-            {
-              "blocks": "#cf:mineable/level_1/axe",
-              "correct_for_drops": true,
-              "speed": 2
-            }
-          ]
-        }
-      },
-      "count": 1,
-      "id": "minecraft:stone_axe"
-    }
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:wooden_axe"
   }
+}

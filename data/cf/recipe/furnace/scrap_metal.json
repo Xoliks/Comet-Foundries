@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "#cf:smelts_to_scrap_metal",
+  "result": {
+    "id": "minecraft:lapis_lazuli"
+  }
+}

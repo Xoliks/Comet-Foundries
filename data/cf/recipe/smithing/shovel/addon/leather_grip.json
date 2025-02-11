@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smithing_transform",
-  "base": "minecraft:stone_shovel",
+  "base": "minecraft:iron_shovel",
   "addition": "minecraft:leather",
   "template": "minecraft:dune_armor_trim_smithing_template",
   "result": {
@@ -30,6 +30,6 @@
       ]
     },
     "count": 1,
-    "id": "minecraft:stone_shovel"
+    "id": "minecraft:iron_shovel"
   }
 }

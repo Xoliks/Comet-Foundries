@@ -23,11 +23,13 @@
       ],
       "minecraft:item_model": "cf:tools/pickaxe",
       "minecraft:custom_model_data": {
-          "strings": [
-              "copper"
-          ]
+        "strings": [
+          "copper"
+        ]
       },
-      "minecraft:item_name": {"translate":"item.minecraft.stone_pickaxe"},
+      "minecraft:item_name": {
+        "translate": "item.cf.copper_pickaxe"
+      },
       "minecraft:repairable": {
         "items": "minecraft:lapis_lazuli"
       },
@@ -38,14 +40,52 @@
             "correct_for_drops": false
           },
           {
-            "blocks": "#cf:mineable/level_3/pickaxe",
+            "blocks": "#cf:mineable/level_4/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_5/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_6/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_7/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_8/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_9/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_10/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_1/pickaxe",
             "correct_for_drops": true,
             "speed": 4
+          },
+          {
+            "blocks": "#cf:mineable/level_2/pickaxe",
+            "correct_for_drops": true,
+            "speed": 3
+          },
+          {
+            "blocks": "#cf:mineable/level_3/pickaxe",
+            "correct_for_drops": true,
+            "speed": 2
           }
         ]
       }
     },
     "count": 1,
-    "id": "minecraft:stone_pickaxe"
+    "id": "minecraft:iron_pickaxe"
   }
 }

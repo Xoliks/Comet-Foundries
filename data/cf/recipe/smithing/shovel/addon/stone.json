@@ -1,51 +1,90 @@
 {
-    "type": "minecraft:smithing_transform",
-    "base": "#cf:smithable_tools",
-    "addition": "minecraft:cobblestone",
-    "template": "minecraft:wayfinder_armor_trim_smithing_template",
-    "result": {
-        "components": {
-            "minecraft:attribute_modifiers": [
-                {
-                    "type": "minecraft:attack_damage",
-                    "amount": 2.5,
-                    "id": "minecraft:base_attack_damage",
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                },
-                {
-                    "type": "minecraft:attack_speed",
-                    "amount": -3,
-                    "id": "minecraft:base_attack_speed",
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                }
-            ],
-            "minecraft:item_model": "cf:tools/shovel",
-            "minecraft:custom_model_data": {
-                "strings": [
-                    "stone"
-                ]
-            },
-            "minecraft:item_name": {"translate":"item.minecraft.stone_shovel"},
-            "minecraft:repairable": {
-                "items":"minecraft:lapis_lazuli"
-            },
-            "minecraft:tool": {
-                "rules": [
-                    {
-                        "blocks": "#cf:mineable/level_2/incorrect",
-                        "correct_for_drops": false
-                    },
-                    {
-                        "blocks": "#cf:mineable/level_2/shovel",
-                        "correct_for_drops": true,
-                        "speed": 3
-                    }
-                ]
-            }
+  "type": "minecraft:smithing_transform",
+  "base": "#cf:smithable_tools",
+  "addition": "minecraft:cobblestone",
+  "template": "minecraft:wayfinder_armor_trim_smithing_template",
+  "result": {
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 2.5,
+          "id": "minecraft:base_attack_damage",
+          "operation": "add_value",
+          "slot": "mainhand"
         },
-        "count": 1,
-        "id": "minecraft:stone_shovel"
-    }
+        {
+          "type": "minecraft:attack_speed",
+          "amount": -3,
+          "id": "minecraft:base_attack_speed",
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:item_model": "cf:tools/shovel",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "stone"
+        ]
+      },
+      "minecraft:item_name": {
+        "translate": "item.cf.stone_shovel"
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:lapis_lazuli"
+      },
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#cf:mineable/level_2/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_3/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_4/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_5/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_6/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_7/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_8/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_9/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_10/incorrect",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#cf:mineable/level_1/shovel",
+            "correct_for_drops": true,
+            "speed": 3
+          },
+          {
+            "blocks": "#cf:mineable/level_2/shovel",
+            "correct_for_drops": true,
+            "speed": 2
+          }
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:stone_shovel"
+  }
 }
