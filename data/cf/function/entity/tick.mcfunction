@@ -1,0 +1,1 @@
+execute if entity @s[type=#cf:single_item_container] run function cf:entity/run_command with entity @s Item.components."minecraft:custom_data".tick
