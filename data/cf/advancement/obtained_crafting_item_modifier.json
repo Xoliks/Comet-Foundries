@@ -1,0 +1,60 @@
+{
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "item_modifier": {}
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cursor": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "slots": {
+            "player.cursor": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "item_modifier": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "offhand": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.offhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "item_modifier": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cursor",
+      "inventory",
+      "offhand"
+    ]
+  ],
+  "rewards": {
+    "function": "cf:player/item_modifier_crafting/main"
+  }
+}

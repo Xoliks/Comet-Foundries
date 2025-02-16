@@ -23,6 +23,22 @@
           }
         }
       }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item",
+        "slots": {
+          "contents": {
+            "predicates": {
+              "minecraft:custom_data": {
+                "item_modifier": {}
+              }
+            }
+          }
+        }
+      }
     }
   ]
 }

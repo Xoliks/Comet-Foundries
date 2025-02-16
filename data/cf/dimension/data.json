@@ -1,0 +1,10 @@
+{
+  "type": "cf:data",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "layers": [],
+      "biome": "cf:data"
+    }
+  }
+}
