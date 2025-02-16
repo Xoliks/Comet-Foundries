@@ -1,228 +1,188 @@
 {
-  "model": {
-    "type": "minecraft:composite",
-    "models": [
-      {
-        "type": "minecraft:select",
-        "property": "minecraft:block_state",
-        "block_state_property": "handle",
-        "cases": [
-          {
-            "when": "stick",
-            "model": {
-              "type": "minecraft:model",
-              "model": "cf:item/tool/stick_handle"
-            }
-          },
-          {
-            "when": "bone",
-            "model": {
-              "type": "minecraft:model",
-              "model": "cf:item/tool/bone_handle"
-            }
-          }
-        ],
-        "fallback": {
+    "model": {
+      "type": "minecraft:composite",
+      "models": [
+        {
           "type": "minecraft:select",
-          "property": "minecraft:custom_model_data",
-          "index": 1,
+          "property": "minecraft:component",
+          "component": "minecraft:max_damage",
           "cases": [
             {
-              "when": "stick",
+              "when": 8,
               "model": {
                 "type": "minecraft:model",
-                "model": "cf:item/tool/stick_handle"
+                "model": "cf:item/tools/stick_handle"
               }
             },
             {
-              "when": "bone",
+              "when": 32,
               "model": {
                 "type": "minecraft:model",
-                "model": "cf:item/tool/bone_handle"
+                "model": "cf:item/tools/bone_handle"
               }
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "cf:item/tool/stick_handle"
+            "model": "cf:item/tools/stick_handle"
           }
-        }
-      },
-      {
-        "type": "minecraft:select",
-        "property": "minecraft:block_state",
-        "block_state_property": "head",
-        "cases": [
-          {
-            "when": "wooden",
-            "model": {
-              "type": "minecraft:model",
-              "model": "cf:item/tool/wooden_pickaxe"
-            }
-          },
-          {
-            "when": "stone",
-            "model": {
-              "type": "minecraft:model",
-              "model": "cf:item/tool/stone_pickaxe"
-            }
-          },
-          {
-            "when": "copper",
-            "model": {
-              "type": "minecraft:model",
-              "model": "cf:item/tool/copper_pickaxe"
-            }
-          },
-          {
-            "when": "iron",
-            "model": {
-              "type": "minecraft:model",
-              "model": "cf:item/tool/iron_pickaxe"
-            }
-          },
-          {
-            "when": "cobalt",
-            "model": {
-              "type": "minecraft:model",
-              "model": "cf:item/tool/cobalt_pickaxe"
-            }
-          },
-          {
-            "when": "titanium",
-            "model": {
-              "type": "minecraft:model",
-              "model": "cf:item/tool/titanium_pickaxe"
-            }
-          },
-          {
-            "when": "magma_steel",
-            "model": {
-              "type": "minecraft:model",
-              "model": "cf:item/tool/magma_steel_pickaxe"
-            }
-          }
-        ],
-        "fallback": {
+        },
+        {
           "type": "minecraft:select",
-          "property": "minecraft:custom_model_data",
-          "index": 0,
+          "property": "minecraft:component",
+          "component": "minecraft:attribute_modifiers",
           "cases": [
             {
-              "when": "wooden",
+              "when": [
+                {
+                  "type": "minecraft:attack_damage",
+                  "amount": 2.5,
+                  "id": "minecraft:base_attack_damage",
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "minecraft:attack_speed",
+                  "amount": -3,
+                  "id": "minecraft:base_attack_speed",
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "minecraft:mining_efficiency",
+                  "amount": 0.5,
+                  "id": "cf:base_mining_efficiency",
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
               "model": {
                 "type": "minecraft:model",
-                "model": "cf:item/tool/wooden_pickaxe"
+                "model": "cf:item/tools/leaf_grip"
               }
             },
             {
-              "when": "stone",
+              "when": [
+                {
+                  "type": "minecraft:attack_damage",
+                  "amount": 2.5,
+                  "id": "minecraft:base_attack_damage",
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "minecraft:attack_speed",
+                  "amount": -3,
+                  "id": "minecraft:base_attack_speed",
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "minecraft:mining_efficiency",
+                  "amount": 1,
+                  "id": "cf:base_mining_efficiency",
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
               "model": {
                 "type": "minecraft:model",
-                "model": "cf:item/tool/stone_pickaxe"
+                "model": "cf:item/tools/wheat_grip"
               }
             },
             {
-              "when": "copper",
+              "when": [
+                {
+                  "type": "minecraft:attack_damage",
+                  "amount": 2.5,
+                  "id": "minecraft:base_attack_damage",
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "minecraft:attack_speed",
+                  "amount": -3,
+                  "id": "minecraft:base_attack_speed",
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "minecraft:mining_efficiency",
+                  "amount": 1.5,
+                  "id": "cf:base_mining_efficiency",
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
               "model": {
                 "type": "minecraft:model",
-                "model": "cf:item/tool/copper_pickaxe"
-              }
-            },
-            {
-              "when": "iron",
-              "model": {
-                "type": "minecraft:model",
-                "model": "cf:item/tool/iron_pickaxe"
-              }
-            },
-            {
-              "when": "cobalt",
-              "model": {
-                "type": "minecraft:model",
-                "model": "cf:item/tool/cobalt_pickaxe"
-              }
-            },
-            {
-              "when": "titanium",
-              "model": {
-                "type": "minecraft:model",
-                "model": "cf:item/tool/titanium_pickaxe"
-              }
-            },
-            {
-              "when": "magma_steel",
-              "model": {
-                "type": "minecraft:model",
-                "model": "cf:item/tool/magma_steel_pickaxe"
-              }
-            }
-          ],
-          "fallback": {
-            "type": "minecraft:model",
-            "model": "cf:item/tool/stone_pickaxe"
-          }
-        }
-      },
-      {
-        "type": "minecraft:select",
-        "property": "minecraft:block_state",
-        "block_state_property": "grip",
-        "cases": [
-          {
-            "when": "leaf",
-            "model": {
-              "type": "minecraft:model",
-              "model": "cf:item/tool/leaf_grip"
-            }
-          },
-          {
-            "when": "wheat",
-            "model": {
-              "type": "minecraft:model",
-              "model": "cf:item/tool/wheat_grip"
-            }
-          },
-          {
-            "when": "leather",
-            "model": {
-              "type": "minecraft:model",
-              "model": "cf:item/tool/leather_grip"
-            }
-          }
-        ],
-        "fallback": {
-          "type": "minecraft:select",
-          "property": "minecraft:custom_model_data",
-          "index": 2,
-          "cases": [
-            {
-              "when": "leaf",
-              "model": {
-                "type": "minecraft:model",
-                "model": "cf:item/tool/leaf_grip"
-              }
-            },
-            {
-              "when": "wheat",
-              "model": {
-                "type": "minecraft:model",
-                "model": "cf:item/tool/wheat_grip"
-              }
-            },
-            {
-              "when": "leather",
-              "model": {
-                "type": "minecraft:model",
-                "model": "cf:item/tool/leather_grip"
+                "model": "cf:item/tools/leather_grip"
               }
             }
           ],
           "fallback": {
             "type": "minecraft:empty"
           }
+        },
+        {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "cases": [
+            {
+              "when": "wooden",
+              "model": {
+                "type": "minecraft:model",
+                "model": "cf:item/tools/wooden_pickaxe"
+              }
+            },
+            {
+              "when": "stone",
+              "model": {
+                "type": "minecraft:model",
+                "model": "cf:item/tools/stone_pickaxe"
+              }
+            },
+            {
+              "when": "copper",
+              "model": {
+                "type": "minecraft:model",
+                "model": "cf:item/tools/copper_pickaxe"
+              }
+            },
+            {
+              "when": "iron",
+              "model": {
+                "type": "minecraft:model",
+                "model": "cf:item/tools/iron_pickaxe"
+              }
+            },
+            {
+              "when": "cobalt",
+              "model": {
+                "type": "minecraft:model",
+                "model": "cf:item/tools/cobalt_pickaxe"
+              }
+            },
+            {
+              "when": "titanium",
+              "model": {
+                "type": "minecraft:model",
+                "model": "cf:item/tools/titanium_pickaxe"
+              }
+            },
+            {
+              "when": "magma_steel",
+              "model": {
+                "type": "minecraft:model",
+                "model": "cf:item/tools/magma_steel_pickaxe"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "cf:tools/cobalt_pickaxe"
+          }
         }
-      }
-    ]
+      ]
+    }
   }
-}

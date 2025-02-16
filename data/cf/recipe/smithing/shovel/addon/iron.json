@@ -2,27 +2,36 @@
   "type": "minecraft:smithing_transform",
   "base": "#cf:smithable_tools",
   "addition": "minecraft:iron_ingot",
-  "template": "minecraft:raiser_armor_trim_smithing_template",
+  "template": "minecraft:wayfinder_armor_trim_smithing_template",
   "result": {
     "components": {
-      "minecraft:custom_data": {
-        "item_modifier": {
-          "function": "minecraft:set_custom_model_data",
-          "strings": {
-            "values": [
-              "iron"
-            ],
-            "mode": "replace_section",
-            "offset": 0
-          }
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 2.5,
+          "id": "minecraft:base_attack_damage",
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "amount": -3,
+          "id": "minecraft:base_attack_speed",
+          "operation": "add_value",
+          "slot": "mainhand"
         }
+      ],
+      "minecraft:item_model": "cf:tools/shovel",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "iron"
+        ]
       },
-      "minecraft:block_state": {
-        "head": "iron"
-      },
-      "minecraft:item_model": "cf:tools/shovel", 
       "minecraft:item_name": {
         "translate": "item.cf.iron_shovel"
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:lapis_lazuli"
       },
       "minecraft:tool": {
         "rules": [

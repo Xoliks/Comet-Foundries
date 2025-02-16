@@ -5,21 +5,6 @@
   "template": "minecraft:sentry_armor_trim_smithing_template",
   "result": {
     "components": {
-      "minecraft:custom_data": {
-        "item_modifier": {
-          "function": "minecraft:set_custom_model_data",
-          "strings": {
-            "values": [
-              "bone"
-            ],
-            "mode": "replace_section",
-            "offset": 1
-          }
-        }
-      },
-      "minecraft:block_state": {
-        "handle": "bone"
-      },
       "minecraft:max_damage": 32
     },
     "count": 1,
