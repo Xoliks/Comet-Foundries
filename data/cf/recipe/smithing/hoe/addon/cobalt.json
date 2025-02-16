@@ -2,36 +2,27 @@
   "type": "minecraft:smithing_transform",
   "base": "#cf:smithable_tools",
   "addition": "minecraft:gold_nugget",
-  "template": "minecraft:shaper_armor_trim_smithing_template",
+  "template": "minecraft:raiser_armor_trim_smithing_template",
   "result": {
     "components": {
-      "minecraft:attribute_modifiers": [
-        {
-          "type": "minecraft:attack_damage",
-          "amount": 2.5,
-          "id": "minecraft:base_attack_damage",
-          "operation": "add_value",
-          "slot": "mainhand"
-        },
-        {
-          "type": "minecraft:attack_speed",
-          "amount": -3,
-          "id": "minecraft:base_attack_speed",
-          "operation": "add_value",
-          "slot": "mainhand"
+      "minecraft:custom_data": {
+        "item_modifier": {
+          "function": "minecraft:set_custom_model_data",
+          "strings": {
+            "values": [
+              "cobalt"
+            ],
+            "mode": "replace_section",
+            "offset": 0
+          }
         }
-      ],
-      "minecraft:item_model": "cf:tools/hoe",
-      "minecraft:custom_model_data": {
-        "strings": [
-          "cobalt"
-        ]
       },
+      "minecraft:block_state": {
+        "head": "cobalt"
+      },
+      "minecraft:item_model": "cf:tools/hoe", 
       "minecraft:item_name": {
         "translate": "item.cf.cobalt_hoe"
-      },
-      "minecraft:repairable": {
-        "items": "minecraft:lapis_lazuli"
       },
       "minecraft:tool": {
         "rules": [
