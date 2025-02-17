@@ -1,24 +1,20 @@
 # called every 20 ticks from a custom enchantment
 
-# check if this entity should despawn
-tag @s add action.despawncheck
-execute at @p as @n[type=allay,tag=!action.despawning,tag=type.erchius_ghost] unless entity @s[tag=action.despawncheck] run scoreboard players set erchius_ghost.despawn temp 1
-execute if score erchius_ghost.despawn temp matches 1 run item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:enchantments":{"cf:entity/erchius_ghost/despawn":1}}}
-execute if score erchius_ghost.despawn temp matches 1 run tag @s add action.despawning
+# get this allay's target UUID and distance to target
+execute on passengers run function cf:library/uuid/generate_uuid_from_path {path:"AngryAt", output:"cf:temp erchius_ghost.entity"}
+execute store result score erchius_ghost.distance_to_target temp run function cf:library/distance/get_distance_to_entity with storage cf:temp erchius_ghost
 
-# clearn the entity's inventory
+# check if the entity should despawn
+function cf:entity/erchius_ghost/despawn_check with storage cf:temp erchius_ghost
+
+# clear the entity's inventory
 data remove entity @s Inventory[]
 
-# set the entities attributes based on the player's inventory
-execute store result score erchius_ghost.player_fuel_count temp if items entity @p[distance=0..] container.* quartz
-execute if score erchius_ghost.player_fuel_count temp matches 1.. on passengers run attribute @s minecraft:follow_range base set 1000
-execute if score erchius_ghost.player_fuel_count temp matches 0 on passengers run attribute @s minecraft:follow_range base set 0
-execute store result storage cf:temp erchius_ghost.speed float 0.0001 run scoreboard players get erchius_ghost.player_fuel_count temp
-
+# set speed
+execute store result storage cf:temp erchius_ghost.speed float 0.0001 run scoreboard players get erchius_ghost.player_fuel_count temp 
 function cf:entity/erchius_ghost/set_attributes with storage cf:temp erchius_ghost
 
 # reset temporary values
 data remove storage cf:temp erchius_ghost
 scoreboard players reset erchius_ghost.player_fuel_count temp
-scoreboard players reset erchius_ghost.despawn temp
-tag @s remove action.despawncheck
+scoreboard players reset erchius_ghost.distance_to_target temp

@@ -18,11 +18,6 @@
   "effects": {
     "minecraft:tick": [
       {
-        "requirements": {
-          "condition": "minecraft:time_check",
-          "value": 0,
-          "period": 20
-        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "cf:entity/erchius_ghost/main"

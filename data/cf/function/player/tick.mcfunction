@@ -1,0 +1,1 @@
+execute if score @s mined_erchius_ore matches 1.. run function cf:player/mined_erchius_fuel/main

@@ -1,6 +1,5 @@
 {
   "values": [
-    "cf:main/init_scoreboard",
-    "cf:main/init_storage"
+    "cf:main/load"
   ]
 }
