@@ -1,0 +1,28 @@
+{
+  "anvil_cost": 1,
+  "description": "Erchius Ghost Despawn",
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "minecraft:quartz",
+  "weight": 1,
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cf:entity/erchius_ghost/despawn"
+        }
+      }
+    ]
+  }
+}

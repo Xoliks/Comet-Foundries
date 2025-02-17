@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": -1,
+      "argument2": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": 0,
+        "to_y": 384,
+        "from_value": 0,
+        "to_value": 384
+      }
+    },
+    "argument2": "cf:moon/base_hightmap"
+  },
+  "argument2": -4
+}

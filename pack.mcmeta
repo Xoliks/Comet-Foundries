@@ -1,21 +1,21 @@
 {
-    "pack": {
-      "pack_format": 66,
-      "description": {
-        "fallback": "Comet Foundries",
-        "translate": "cf.dp.description"
-      }
-    },
-    "filter": {
-      "block": [
-        {
-          "namespace": "minecraft",
-          "path": "recipe"
-        },
-        {
-          "namespace": "minecraft",
-          "path": "tags/block/mineable"
-        }
-      ]
+  "pack": {
+    "pack_format": 66,
+    "description": {
+      "fallback": "Comet Foundries",
+      "translate": "cf.dp.description"
     }
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "recipe"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "tags/block/mineable"
+      }
+    ]
   }
+}

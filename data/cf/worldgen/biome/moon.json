@@ -1,0 +1,24 @@
+{
+  "temperature_modifier": "none",
+  "carvers": [],
+  "downfall": 1,
+  "effects": {
+    "fog_color": 12638463,
+    "music_volume": 1,
+    "sky_color": 8103167,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [
+      "cf:moon/crater"
+    ],
+    [
+      "cf:moon/erchius_ore"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {},
+  "temperature": 1
+}

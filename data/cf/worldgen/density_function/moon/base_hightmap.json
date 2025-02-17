@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": {
+      "type": "minecraft:noise",
+      "noise": "cf:moon/moon",
+      "xz_scale": 1,
+      "y_scale": 0
+    },
+    "points": [
+      {
+        "location": -1,
+        "derivative": 1,
+        "value": 64
+      },
+      {
+        "location": 1,
+        "derivative": 1,
+        "value": 128
+      }
+    ]
+  }
+}

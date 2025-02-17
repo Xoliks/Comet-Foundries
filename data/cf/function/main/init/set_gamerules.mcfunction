@@ -1,0 +1,3 @@
+gamerule commandModificationBlockLimit 2147483647
+gamerule maxCommandChainLength 2147483647
+gamerule maxCommandForkCount 2147483647
