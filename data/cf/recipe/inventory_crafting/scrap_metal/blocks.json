@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "purpur_block",
+  "category": "building",
+  "key": {
+    "#": "minecraft:lapis_lazuli"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:purpur_block"
+  }
+}

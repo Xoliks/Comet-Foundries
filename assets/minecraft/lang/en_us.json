@@ -1,5 +1,4 @@
 {
-
     "menu.game": "\uF000",
     "menu.returnToGame": "Back to Game",
     "cf.rp.description": "Comet Foundries",
@@ -56,6 +55,7 @@
     "item.cf.titanium_shovel": "Titanium Shovel",
     "item.cf.magma_steel_shovel": "Magma Steel Shovel",
 
+    "item.cf.hologram_projector": "Hologram Projector",
 
     "item.minecraft.wayfinder_armor_trim_smithing_template": "Shovel Template",
     "item.minecraft.wayfinder_armor_trim_smithing_template.new": "Shovel Template",
@@ -336,5 +336,9 @@
     "subtitles.block.barrel.close": "Crate closes",
     "subtitles.block.barrel.open": "Crate opens",
 
-    "block.minecraft.dropper": "Slat Crate"
+    "block.minecraft.soul_sand": "Moon Dust",
+    "block.minecraft.netherrack": "Moon Stone",
+    "block.minecraft.nether_quartz_ore": "Erchius Ore",
+    "block.minecraft.lightning_rod": "Copper Rod"
+
 }
