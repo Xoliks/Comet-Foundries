@@ -7,6 +7,6 @@ function cf:main/init/set_gamerules
 function cf:main/init/player_scoreboards
 function cf:main/init/int_scoreboards
 function cf:main/init/rom_storage
-
+function cf:main/init/teams
 
 

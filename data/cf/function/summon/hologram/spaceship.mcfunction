@@ -1,5 +1,6 @@
 execute align xyz run summon item_display ~ ~ ~ \
 { \
+  view_range: 0.3f, \
   transformation: { \
     left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], \
     translation: [0.0f, 4.0f, 0.0f], \

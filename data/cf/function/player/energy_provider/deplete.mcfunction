@@ -1,0 +1,1 @@
+execute if items entity @s weapon.offhand *[minecraft:custom_data~{energy_proivder:{}}] run return run function remove_energy_at_slot {slot:"weapon.offhand",path "equipment.offhand"}

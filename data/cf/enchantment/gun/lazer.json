@@ -1,0 +1,65 @@
+{
+  "anvil_cost": 1,
+  "description": "Lazer",
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_level": 255,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/crossbow",
+  "weight": 1,
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cf:entity/lazer/init"
+        }
+      }
+    ],
+    "minecraft:hit_block": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cf:entity/lazer/hit_ground"
+        }
+      }
+    ],
+    "minecraft:ammo_use": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": 0
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:glowing",
+          "min_duration": 0,
+          "max_duration": 0,
+          "min_amplifier": 255,
+          "max_amplifier": 255
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

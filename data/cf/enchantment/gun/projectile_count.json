@@ -1,0 +1,62 @@
+{
+  "anvil_cost": 1,
+  "description": "Projectile Count",
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_level": 255,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/crossbow",
+  "weight": 1,
+  "effects": {
+    "minecraft:projectile_count": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:multiply",
+              "factor": 0
+            },
+            {
+              "type": "minecraft:add",
+              "value": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "minecraft:projectile_spread": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:multiply",
+              "factor": 0
+            },
+            {
+              "type": "minecraft:add",
+              "value": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

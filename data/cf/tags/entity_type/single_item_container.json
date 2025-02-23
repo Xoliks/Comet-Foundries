@@ -3,6 +3,8 @@
     "minecraft:item",
     "minecraft:item_frame",
     "minecraft:glow_item_frame",
-    "minecraft:item_display"
+    "minecraft:item_display",
+    "minecraft:arrow",
+    "minecraft:spectral_arrow"
   ]
 }

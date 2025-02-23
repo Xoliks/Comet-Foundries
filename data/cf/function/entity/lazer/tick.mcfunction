@@ -1,0 +1,2 @@
+execute if predicate {condition:"minecraft:any_of",terms:[{condition:"minecraft:value_check",value:{type:"minecraft:score",target:"this",score:"lifetime",scale:1},range:-1},{condition:"minecraft:entity_properties",entity:"this",predicate:{movement:{speed:{min:0,max:10}}}}]} run return run kill @s
+scoreboard players remove @s lifetime 1
