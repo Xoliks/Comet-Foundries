@@ -1,1 +1,41 @@
-execute if items entity @s weapon.offhand *[minecraft:custom_data~{energy_proivder:{}}] run return run function remove_energy_at_slot {slot:"weapon.offhand",path "equipment.offhand"}
+# call this function with the scoreboard energy_provider.in temp to deplete that amount of energy from the player's inventory, make sure to call the cleanup function afterwards
+
+execute if items entity @s weapon.offhand minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"weapon.offhand", path:"equipment.offhand"}
+execute if items entity @s hotbar.0 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"hotbar.0", path:"Inventory.[{Slot:0b}]"}
+execute if items entity @s hotbar.1 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"hotbar.1", path:"Inventory.[{Slot:1b}]"}
+execute if items entity @s hotbar.2 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"hotbar.2", path:"Inventory.[{Slot:2b}]"}
+execute if items entity @s hotbar.3 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"hotbar.3", path:"Inventory.[{Slot:3b}]"}
+execute if items entity @s hotbar.4 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"hotbar.4", path:"Inventory.[{Slot:4b}]"}
+execute if items entity @s hotbar.5 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"hotbar.5", path:"Inventory.[{Slot:5b}]"}
+execute if items entity @s hotbar.6 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"hotbar.6", path:"Inventory.[{Slot:6b}]"}
+execute if items entity @s hotbar.7 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"hotbar.7", path:"Inventory.[{Slot:7b}]"}
+execute if items entity @s hotbar.8 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"hotbar.8", path:"Inventory.[{Slot:8b}]"}
+execute if items entity @s inventory.0 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.0", path:"Inventory.[{Slot:9b}]"}
+execute if items entity @s inventory.1 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.1", path:"Inventory.[{Slot:10b}]"}
+execute if items entity @s inventory.2 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.2", path:"Inventory.[{Slot:11b}]"}
+execute if items entity @s inventory.3 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.3", path:"Inventory.[{Slot:12b}]"}
+execute if items entity @s inventory.4 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.4", path:"Inventory.[{Slot:13b}]"}
+execute if items entity @s inventory.5 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.5", path:"Inventory.[{Slot:14b}]"}
+execute if items entity @s inventory.6 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.6", path:"Inventory.[{Slot:15b}]"}
+execute if items entity @s inventory.7 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.7", path:"Inventory.[{Slot:16b}]"}
+execute if items entity @s inventory.8 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.8", path:"Inventory.[{Slot:17b}]"}
+execute if items entity @s inventory.9 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.9", path:"Inventory.[{Slot:18b}]"}
+execute if items entity @s inventory.10 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.10", path:"Inventory.[{Slot:19b}]"}
+execute if items entity @s inventory.11 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.11", path:"Inventory.[{Slot:20b}]"}
+execute if items entity @s inventory.12 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.12", path:"Inventory.[{Slot:21b}]"}
+execute if items entity @s inventory.13 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.13", path:"Inventory.[{Slot:22b}]"}
+execute if items entity @s inventory.14 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.14", path:"Inventory.[{Slot:23b}]"}
+execute if items entity @s inventory.15 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.15", path:"Inventory.[{Slot:24b}]"}
+execute if items entity @s inventory.16 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.16", path:"Inventory.[{Slot:25b}]"}
+execute if items entity @s inventory.17 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.17", path:"Inventory.[{Slot:26b}]"}
+execute if items entity @s inventory.18 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.18", path:"Inventory.[{Slot:27b}]"}
+execute if items entity @s inventory.19 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.19", path:"Inventory.[{Slot:28b}]"}
+execute if items entity @s inventory.20 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.20", path:"Inventory.[{Slot:29b}]"}
+execute if items entity @s inventory.21 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.21", path:"Inventory.[{Slot:30b}]"}
+execute if items entity @s inventory.22 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.22", path:"Inventory.[{Slot:31b}]"}
+execute if items entity @s inventory.23 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.23", path:"Inventory.[{Slot:32b}]"}
+execute if items entity @s inventory.24 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.24", path:"Inventory.[{Slot:33b}]"}
+execute if items entity @s inventory.25 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.25", path:"Inventory.[{Slot:34b}]"}
+execute if items entity @s inventory.26 minecraft:spectral_arrow[minecraft:custom_data~{energy_provider:{}}] run return run function cf:player/energy_provider/1 {slot:"inventory.26", path:"Inventory.[{Slot:35b}]"}
+
+return run scoreboard players get energy_provider.total_consumption temp

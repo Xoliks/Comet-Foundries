@@ -57,6 +57,8 @@
 
     "item.cf.hologram_projector": "Hologram Projector",
 
+    "item.cf.basic_battery": "Basic Battery",
+
     "item.minecraft.wayfinder_armor_trim_smithing_template": "Shovel Template",
     "item.minecraft.wayfinder_armor_trim_smithing_template.new": "Shovel Template",
     "item.minecraft.host_armor_trim_smithing_template": "Pickaxe Template",

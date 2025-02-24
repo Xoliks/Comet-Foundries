@@ -1,11 +1,11 @@
 {
   "anvil_cost": 1,
-  "description": "Auto Reload",
+  "description": "Magazine",
   "max_cost": {
     "base": 1,
     "per_level_above_first": 1
   },
-  "max_level": 1,
+  "max_level": 99,
   "min_cost": {
     "base": 1,
     "per_level_above_first": 1
@@ -20,7 +20,77 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "cf:item/gun/magazine_mainhand"
+          "function": "cf:item/gun/reload"
+        }
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player",
+                "slots": {
+                  "weapon.mainhand": {
+                    "predicates": {
+                      "minecraft:container": {
+                        "items": {
+                          "count": [
+                            {
+                              "test": {},
+                              "count": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "weapon.mainhand": {
+                      "components": {
+                        "minecraft:charged_projectiles": []
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "weapon.mainhand": {
+                      "predicates": {
+                        "minecraft:custom_data": {
+                          "magazine": {}
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cf:item/gun/load"
         }
       }
     ]
