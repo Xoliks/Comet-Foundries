@@ -11,13 +11,14 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "cf:gun/lazer": 20
+                  "cf:gun/lazer": 10,
+                  "cf:gun/charge_time": 200
                 },
-                "minecraft:max_damage": 3,
-                "minecraft:damage": 3,
+                "minecraft:max_damage": 100,
+                "minecraft:damage": 100,
                 "minecraft:custom_data": {
                   "gun":{
-                    "charge_cost": 1
+                    "charge_cost": 20
                   }
                 }
               }

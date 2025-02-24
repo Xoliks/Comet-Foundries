@@ -1,0 +1,77 @@
+[
+  {
+    "function": "minecraft:set_damage",
+    "damage": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "gun.magazine_loaded"
+      },
+      "score": "temp",
+      "scale": -0.001
+    },
+    "add": true
+  },
+  {
+    "function": "minecraft:set_contents",
+    "component": "minecraft:charged_projectiles",
+    "entries": [
+      {
+        "type": "minecraft:loot_table",
+        "value": {
+          "type": "minecraft:command",
+          "pools": [
+            {
+              "rolls": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "gun.projectile_count"
+                },
+                "score": "temp",
+                "scale": 1
+              },
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:spectral_arrow"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "weapon.mainhand": {
+                "predicates": {
+                  "minecraft:damage": {
+                    "durability": {
+                      "min": 0,
+                      "max": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "gun": {
+        "reloaded": true
+      }
+    }
+  }
+]

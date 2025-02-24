@@ -1,0 +1,37 @@
+[
+  {
+    "function": "minecraft:set_damage",
+    "damage": 1
+  },
+  {
+    "function": "minecraft:set_contents",
+    "component": "minecraft:charged_projectiles",
+    "entries": [
+      {
+        "type": "minecraft:loot_table",
+        "value": {
+          "type": "minecraft:command",
+          "pools": [
+            {
+              "rolls": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "gun.projectile_count"
+                },
+                "score": "temp",
+                "scale": 1
+              },
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:spectral_arrow"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

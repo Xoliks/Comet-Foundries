@@ -1,0 +1,33 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "components": {
+              "minecraft:charged_projectiles": []
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "weapon.mainhand": {
+          "predicates": {
+            "minecraft:damage": {
+              "durability": 0
+            }
+          }
+        }
+      }
+    }
+  }
+]

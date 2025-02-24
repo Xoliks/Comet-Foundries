@@ -1,0 +1,20 @@
+{
+  "anvil_cost": 1,
+  "description": "Crossbow Charge Time",
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_level": 255,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "supported_items": "#minecraft:enchantable/crossbow",
+  "weight": 1,
+  "effects": {}
+}

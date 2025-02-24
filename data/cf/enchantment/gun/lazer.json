@@ -16,26 +16,11 @@
   "supported_items": "#minecraft:enchantable/crossbow",
   "weight": 1,
   "effects": {
-    "minecraft:projectile_spawned": [
+    "minecraft:item_damage": [
       {
         "effect": {
-          "type": "minecraft:run_function",
-          "function": "cf:entity/lazer/init"
-        }
-      }
-    ],
-    "minecraft:hit_block": [
-      {
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "#minecraft:arrows"
-          }
-        },
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "cf:entity/lazer/hit_ground"
+          "type": "minecraft:multiply",
+          "factor": 0
         }
       }
     ],
@@ -59,6 +44,99 @@
         },
         "enchanted": "attacker",
         "affected": "victim"
+      }
+    ],
+    "minecraft:hit_block": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cf:entity/lazer/hit_ground"
+        }
+      }
+    ],
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cf:item/gun/reload"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cf:entity/lazer/init"
+        }
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "weapon.mainhand": {
+                    "components": {
+                      "minecraft:charged_projectiles": []
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "weapon.mainhand": {
+                  "predicates": {
+                    "minecraft:damage": {
+                      "durability": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cf:item/gun/load"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "weapon.mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "gun": {
+                      "reloaded": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cf:item/gun/finished_reloading"
+        }
       }
     ]
   }
