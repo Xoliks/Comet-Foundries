@@ -1,0 +1,6 @@
+{
+	"parent": "cf:item/gun/unloaded/template",
+	"textures": {
+		"layer0": "cf:item/gun/sniper_rifle"
+	}
+}

@@ -1,4 +1,5 @@
 {
+  "exclusive_set": "#cf:item_utility",
   "anvil_cost": 1,
   "description": "Crossbow Charge Time",
   "max_cost": {

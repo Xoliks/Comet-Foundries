@@ -17,7 +17,7 @@
   "supported_items": "#minecraft:enchantable/crossbow",
   "weight": 1,
   "effects": {
-    "minecraft:projectile_count": [
+    "minecraft:projectile_spread": [
       {
         "effect": {
           "type": "minecraft:all_of",

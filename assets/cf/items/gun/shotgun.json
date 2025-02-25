@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "cf:item/gun/unloaded/shotgun"
+        },
+        "when": "none"
+      }
+    ],
+    "property": "minecraft:charge_type",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cf:item/gun/loaded/shotgun"
+    }
+  }
+}

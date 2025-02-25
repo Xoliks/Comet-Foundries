@@ -1,0 +1,33 @@
+{
+  "item.crossbow.shoot": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "cf:item/crossbow/shoot",
+        "pitch": 0.2,
+        "volume": 0.6
+      },
+      {
+        "name": "cf:item/crossbow/shoot",
+        "pitch": 0.3,
+        "volume": 0.6
+      },
+      {
+        "name": "cf:item/crossbow/shoot",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "cf:item/crossbow/shoot",
+        "pitch": 0.5,
+        "volume": 0.6
+      },
+      {
+        "name": "cf:item/crossbow/shoot",
+        "pitch": 0.6,
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.item.crossbow.shoot"
+  }
+}

@@ -61,6 +61,14 @@
     "item.cf.enhanced_battery": "Enhanced Battery",
     "item.cf.refined_battery": "Refined Battery",
 
+    "item.cf.double_barrel_shotgun" : "Double Barrel Shotgun",
+    "item.cf.machine_gun" : "Machine Gun",
+    "item.cf.pistol" : "Pistol",
+    "item.cf.revolver" : "Revolver",
+    "item.cf.omni_blaster" : "Omni-Blaster",
+    "item.cf.shotgun" : "Shotgun",
+    "item.cf.sniper_rifle" : "Sniper Rifle",
+
     "item.minecraft.wayfinder_armor_trim_smithing_template": "Shovel Template",
     "item.minecraft.wayfinder_armor_trim_smithing_template.new": "Shovel Template",
     "item.minecraft.host_armor_trim_smithing_template": "Pickaxe Template",

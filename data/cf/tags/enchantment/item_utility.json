@@ -1,0 +1,14 @@
+{
+    "values": [
+        "cf:uncombinable0",
+        "cf:uncombinable1",
+        "cf:gun/charge_cost",
+        "cf:gun/charge_time",
+        "cf:gun/lazer",
+        "cf:gun/piercing",
+        "cf:gun/projectile_count",
+        "cf:gun/projectile_speed",
+        "cf:gun/projectile_spread"
+
+    ]
+}

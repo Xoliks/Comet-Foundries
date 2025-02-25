@@ -10,15 +10,29 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:enchantments",
+                    "minecraft:charged_projectiles"
+                  ]
+                },
+                "minecraft:item_name": {
+                  "translate" : "item.cf.omni_blaster"
+                },
+                "minecraft:item_model": "cf:gun/omni_blaster",
                 "minecraft:enchantments": {
+                  "cf:uncombinable0": 1,
+                  "cf:uncombinable1": 1,
                   "cf:gun/lazer": 3,
-                  "cf:gun/projectile_count": 255,
+                  "cf:gun/projectile_count": 100,
+                  "cf:gun/projectile_spread": 255,
                   "cf:gun/charge_time": 50
                 },
                 "minecraft:max_damage": 1,
                 "minecraft:damage": 1,
                 "minecraft:custom_data": {
-                  "gun":{
+                  "gun": {
                     "charge_cost": 20
                   }
                 }

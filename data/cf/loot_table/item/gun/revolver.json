@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:enchantments",
+                    "minecraft:charged_projectiles"
+                  ]
+                },
+                "minecraft:item_name": {
+                  "translate" : "item.cf.revolver"
+                },
+                "minecraft:item_model": "cf:gun/revolver",
+                "minecraft:enchantments": {
+                  "cf:uncombinable0": 1,
+                  "cf:uncombinable1": 1,
+                  "cf:gun/lazer": 10,
+                  "cf:gun/charge_time": 15
+                },
+                "minecraft:max_damage": 6,
+                "minecraft:damage": 6,
+                "minecraft:custom_data": {
+                  "gun": {
+                    "charge_cost": 2
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

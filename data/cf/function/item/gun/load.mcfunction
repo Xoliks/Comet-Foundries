@@ -11,3 +11,6 @@ scoreboard players operation gun.magazine_loaded temp /= gun.magazine_size temp
 scoreboard players remove gun.magazine_loaded temp 1
 
 item modify entity @s weapon.mainhand cf:gun/load
+
+scoreboard players reset gun.magazine_loaded temp
+scoreboard players reset gun.magazine_size temp

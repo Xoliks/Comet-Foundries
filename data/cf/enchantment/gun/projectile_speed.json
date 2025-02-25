@@ -1,7 +1,7 @@
 {
   "exclusive_set": "#cf:item_utility",
   "anvil_cost": 1,
-  "description": "Crossbow Charge Time",
+  "description": "Projectile Speed",
   "max_cost": {
     "base": 1,
     "per_level_above_first": 0
@@ -12,10 +12,18 @@
     "per_level_above_first": 0
   },
   "slots": [
-    "mainhand",
-    "offhand"
+    "any"
   ],
   "supported_items": "#minecraft:enchantable/crossbow",
   "weight": 1,
-  "effects": {}
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cf:item/gun/projectile_speed"
+        }
+      }
+    ]
+  }
 }
