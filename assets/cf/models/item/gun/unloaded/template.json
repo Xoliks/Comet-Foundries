@@ -4,8 +4,14 @@
 		"thirdperson_righthand": {
 			"rotation": [-45, 90, 0]
 		},
+		"thirdperson_lefthand": {
+			"rotation": [135, -90, -180]
+		},
 		"firstperson_righthand": {
 			"rotation": [0, 90, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0]
 		}
 	}
 }

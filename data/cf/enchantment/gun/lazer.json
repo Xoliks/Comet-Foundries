@@ -12,7 +12,8 @@
     "per_level_above_first": 0
   },
   "slots": [
-    "any"
+    "mainhand",
+    "offhand"
   ],
   "supported_items": "#minecraft:enchantable/crossbow",
   "weight": 1,
@@ -117,6 +118,45 @@
         }
       },
       {
+        "requirements": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "weapon.offhand": {
+                    "components": {
+                      "minecraft:charged_projectiles": []
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "weapon.offhand": {
+                  "predicates": {
+                    "minecraft:damage": {
+                      "durability": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cf:item/gun/offhand/load"
+        }
+      },
+      {
         "requirements": {
           "condition": "minecraft:entity_properties",
           "entity": "this",
@@ -137,6 +177,29 @@
         "effect": {
           "type": "minecraft:run_function",
           "function": "cf:item/gun/finished_reloading"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "weapon.offhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "gun": {
+                      "reloaded": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cf:item/gun/offhand/finished_reloading"
         }
       }
     ]

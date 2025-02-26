@@ -84,6 +84,10 @@ summon minecraft:allay ~ ~ ~ \
                 {\
                     id: "minecraft:attack_damage",\
                     base: 1000.0\
+                },\
+                                {\
+                    id: "minecraft:scale",\
+                    base: 3.0\
                 }\
             ]\
         }\

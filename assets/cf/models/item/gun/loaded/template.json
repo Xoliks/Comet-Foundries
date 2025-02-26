@@ -5,9 +5,17 @@
 			"rotation": [13, 77.75, -58],
 			"translation": [-2.25, 0, 0]
 		},
+		"thirdperson_lefthand": {
+			"rotation": [13, -102.25, 53],
+			"translation": [-2.25, 0, 0]
+		},
 		"firstperson_righthand": {
 			"rotation": [-45, 90, 0],
 			"translation": [10, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-45, -85, 0],
+			"translation": [0, 0, -1.75]
 		}
 	}
 }

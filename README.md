@@ -10,7 +10,7 @@ Ideas List:
 
 Planets            |Level |Features                          |Stone Types |Wood Types   (12/12)|Ore Types       (12/17)                       |
 :----------------- |:---- |:-------------------------------- |:---------- |:------------------ |:-------------------------------------------- |
-Forest planet      |1     |player spawn                      |Stone       |Apple & Paper Birch |Coal, Copper                                  |
+Forest planet      |1     |player spawn                      |Stone       |Apple & Paper Birch |Coal, Copper, zinc                            |
 Tech planet        |1     |Robot People                      |            |GMO Wood            |Scrap Metal                                   |
 Moon               |2     |no air                            |Moonstone   |                    |Erchius (spaceship fuel)                      |
 Ocean planet       |2     |dark ocean caves, underwater city |Prismarine  |Frangipani          |Cobalt                                        |
@@ -30,7 +30,22 @@ Ringworld??
 Binary planet system??
 Asteroid Belt??
 
-Space encounters:
+## Space encounters:
 Space station (villagers & trades),
 Pirate ships (dungeons),
 Comet (limited time resource worlds)
+
+## Progression
+Mining
+Combat
+Building
+Exploring
+Quests
+
+# ToDo:
+sounds, 
+translations, 
+recipies,
+shipworld,
+minable block tags,
+enemies

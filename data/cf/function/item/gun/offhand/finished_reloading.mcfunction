@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand {function:"minecraft:set_custom_data",tag:{gun:{reloaded:0b}}}
