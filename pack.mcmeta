@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 66,
+    "pack_format": 69,
     "description": {
       "fallback": "Comet Foundries",
       "translate": "cf.dp.description"

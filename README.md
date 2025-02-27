@@ -45,6 +45,7 @@ Quests
 # ToDo:
 sounds, 
 translations, 
+subtitles,
 recipies,
 shipworld,
 minable block tags,

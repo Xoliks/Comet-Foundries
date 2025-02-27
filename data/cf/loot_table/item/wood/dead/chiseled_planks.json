@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stripped_pale_oak_wood",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "cf:wood/dead/chiseled_planks",
+                "minecraft:item_name": {
+                  "translate": "block.minecraft.chiseled_dead_planks"
+                },
+                "minecraft:block_state": {
+                  "axis": "x"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

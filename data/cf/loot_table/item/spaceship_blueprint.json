@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "Item": {
+                    "components": {
+                      "minecraft:item_model": "cf:empty",
+                      "minecraft:custom_data": {
+                        "tick": {
+                          "command": "function cf:entity/spaceship_blueprint/place"
+                        }
+                      }
+                    },
+                    "id": "minecraft:white_dye"
+                  },
+                  "Invulnerable": 1,
+                  "id": "minecraft:item_frame",
+                  "Invisible": 1,
+                  "Fixed": 1
+                },
+                "minecraft:item_name": {
+                  "translate": "item.cf.spaceship_blueprint"
+                },
+                "minecraft:item_model": "minecraft:player_head",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJiYTk0MzE3ODFlZjRjMTkzZGQwZTExNjU2N2IwYjg1NTE4YWI5YjZhM2RjOGRhZDJiNmJiZjNiYjliZjg5MyIKICAgIH0KICB9Cn0="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

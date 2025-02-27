@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stripped_crimson_hyphae",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "cf:wood/lava/pillar_planks",
+                "minecraft:item_name": {
+                  "translate": "block.minecraft.pillar_lava_planks"
+                },
+                "minecraft:block_state": {
+                  "axis": "z"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

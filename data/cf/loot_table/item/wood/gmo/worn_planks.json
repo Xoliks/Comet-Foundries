@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stripped_dark_oak_wood",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "cf:wood/gmo/worn_planks",
+                "minecraft:item_name": {
+                  "translate": "block.minecraft.worn_gmo_planks"
+                },
+                "minecraft:block_state": {
+                  "axis": "y"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
